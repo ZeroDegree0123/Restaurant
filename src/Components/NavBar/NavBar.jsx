@@ -8,23 +8,28 @@ export default function NavBar({ user, setUser }) {
     setUser(null);
   }
   return (
-    <nav className="nav-bar">
-      <Link to="/">Home</Link>
-      &nbsp; | &nbsp;
-      <Link to="menu">Menu</Link>
-      &nbsp; | &nbsp;
-      <Link to="orders">Order History</Link>
-      &nbsp; | &nbsp;
-      <Link to="orders/new">New Order</Link>
-      &nbsp; | &nbsp;
-    
-      {user && (
-        <Link onClick={handleLogOut} to="logout">
-          Logout
+    <>
+      <nav className="nav-bar">
+        <Link id="burger" className="nav-links" to="/">
+          <img className="hamburger" src="https://imgur.com/tzwO2AI.png" alt="" />
         </Link>
-      )}
-      &nbsp; | &nbsp;
-      <span>Welcome {user.name}</span>
-    </nav>
+        &nbsp;  &nbsp;
+        <Link className="nav-links" to="menu">Menu</Link>
+        &nbsp;  &nbsp;
+        <Link className="nav-links" to="rewards">Rewards</Link>
+        &nbsp;  &nbsp;
+        {/* <Link className="nav-links" to="orders">Order History</Link>
+        &nbsp;  &nbsp; */}
+        <Link className="nav-links" to="orders/new">Order</Link>
+        &nbsp;  &nbsp;
+        {user && (
+          <Link id="logout" className="nav-links" onClick={handleLogOut} to="logout">
+            Logout
+          </Link>
+        )}
+        <h2 className="user-name">WELCOME {user.name.toUpperCase()}!</h2>
+        &nbsp;  &nbsp;
+      </nav>
+    </>
   );
 }

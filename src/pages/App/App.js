@@ -8,6 +8,7 @@ import OrderHistory from "../OrderHistoryPage/OrderHistoryPage";
 import NavBar from "../../Components/NavBar/NavBar";
 import Menu from "../MenuPage/MenuPage"
 import Home from "../HomePage/HomePage"
+import Rewards from "../RewardsPage/RewardsPage"
 
 export default function App() {
   const [user, setUser] = useState(getUser());
@@ -22,6 +23,7 @@ export default function App() {
             <Route path="/orders" element={<OrderHistory />} />
             <Route path="/menu" element={<Menu />} />
             <Route path="/" element={<Home />} />
+            <Route path="/rewards" element={<Rewards />} />
           </Routes>
         </>
       ) : (
