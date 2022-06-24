@@ -1,3 +1,7 @@
+:root {
+    --green: #44ed85;
+}
+
 .nav-bar {
     display: flex;
     flex-direction: row;
@@ -17,7 +21,7 @@
 }
 
 .nav-links:hover {
-    background-color: #44ed85;
+    background-color: #ff7d0a;
     color: white;
 }
 

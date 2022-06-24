@@ -1,4 +1,7 @@
-
+:root {
+    --primary: hsla(30, 95%, 64%, 0.45);
+    --secondary: hsla(0, 0%, 0%, 0.95);
+}
 
 .header-container {
     display: flex;
@@ -15,7 +18,7 @@
     align-items: flex-start;
     color: white;
     font-size: 45px;
-    width: 85%;
+    width: 100%;
     height: 600px;
     background-image: url(https://imgur.com/QEHrXjH.png);
 }
@@ -38,7 +41,7 @@
 }
 
 .order-link:hover {
-    background-color: #44ed85;
+    background-color: #ff7d0a;
 }
 
 .food-image {
@@ -47,12 +50,100 @@
     border-radius: 15px;
 }
 
+.rewards-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+.rewards-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    grid-area: 1 / 2 / 2 / 3;
+    color: white;
+    font-size: 45px;
+    width: 85%;
+    height: 600px;
+    background-image: url(https://imgur.com/QEHrXjH.png);
+}
+.rewards-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 1 / 2 / 2;
+    color: black;
+    font-size: 45px;
+    width: 85%;
+    height: 600px;
+}
+
 .menu-highlights {
     font-size: 35px;
 }
 
 .highlights-container {
     display: grid;
+    margin: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+}
+
+.daily {
+    grid-area: 1 / 1 / 1 / 3;
+    background: linear-gradient(180deg, var(--primary), var(--secondary)),
+                url('https://imgur.com/QEHrXjH.png') no-repeat center center / cover;
+}
+
+.appetizer {
+    grid-area: 1 / 3 / 1 / 4;
+    background: linear-gradient(180deg, var(--primary), var(--secondary)),
+                url('https://imgur.com/QEHrXjH.png') no-repeat center center / cover;
+}
+
+.burger {
+    grid-area: 2 / 1 / 3 / 2;
+    background: linear-gradient(180deg, var(--primary), var(--secondary)),
+                url('https://imgur.com/QEHrXjH.png') no-repeat center center / cover;
+}
+
+.drinks {
+    grid-area: 2 / 2 / 3 / 4;
+    background: linear-gradient(180deg, var(--primary), var(--secondary)),
+                url('https://imgur.com/QEHrXjH.png') no-repeat center center / cover;
+}
+
+.desserts {
+    grid-area: 3 / 1 / 4 / 3;
+    background: linear-gradient(180deg, var(--primary), var(--secondary)),
+                url('https://imgur.com/QEHrXjH.png') no-repeat center center / cover;
+}
+
+.kids {
+    grid-area: 3 / 3 / 4 / 4;
+    background: linear-gradient(180deg, var(--primary), var(--secondary)),
+                url('https://imgur.com/QEHrXjH.png') no-repeat center center / cover;
+}
+
+.bottom-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.bottom-links {
+    margin: 20px;
+}
+
+#highlight-items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 10px;
+    height: 200px;
+    color: white;
 }
