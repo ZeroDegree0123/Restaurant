@@ -6,9 +6,10 @@ import Auth from "../AuthPage/AuthPage";
 import NewOrder from "../NewOrderPage/NewOrderPage";
 import OrderHistory from "../OrderHistoryPage/OrderHistoryPage";
 import NavBar from "../../Components/NavBar/NavBar";
-import Menu from "../MenuPage/MenuPage"
-import Home from "../HomePage/HomePage"
-import Rewards from "../RewardsPage/RewardsPage"
+import Footer from "../../Components/Footer/Footer";
+import Menu from "../MenuPage/MenuPage";
+import Home from "../HomePage/HomePage";
+import Rewards from "../RewardsPage/RewardsPage";
 
 export default function App() {
   const [user, setUser] = useState(getUser());
@@ -25,6 +26,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/rewards" element={<Rewards />} />
           </Routes>
+          <Footer/>
         </>
       ) : (
         <Auth setUser={setUser} />

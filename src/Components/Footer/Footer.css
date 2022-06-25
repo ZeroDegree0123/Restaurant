@@ -1,0 +1,11 @@
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end; 
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}

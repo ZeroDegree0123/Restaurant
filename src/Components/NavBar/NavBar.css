@@ -8,6 +8,8 @@
     justify-content: center;
     align-items: center;
     height: 100px;
+    width: 100%;
+    /* background-image: url('https://imgur.com/hO9fhqf.png'); */
 }
 
 .nav-links {
