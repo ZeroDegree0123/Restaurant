@@ -30,6 +30,7 @@ export default function NavBar({ user, setUser }) {
         <h2 className="user-name">WELCOME {user.name.toUpperCase()}!</h2>
         &nbsp;  &nbsp;
       </nav>
+      <hr className="line-break" />
     </>
   );
 }

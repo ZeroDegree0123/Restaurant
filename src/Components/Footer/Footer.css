@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-end; 
+    align-items: center; 
+    height: 80px;
+    background-image: url('https://imgur.com/hO9fhqf.png');
 }
 
 .links {

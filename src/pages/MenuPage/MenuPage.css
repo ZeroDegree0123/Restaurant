@@ -1,0 +1,48 @@
+.menu-container {
+    display: block;
+    margin: 60px
+}
+
+.menu-title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu-appetizers-container {
+    border: 2px solid black;
+}
+.menu-salads-container {
+    border: 2px solid black;
+}
+.menu-burgers-container {
+    border: 2px solid black;
+}
+.menu-kids-container {
+    border: 2px solid black;
+}
+.menu-desserts-container {
+    border: 2px solid black;
+}
+.menu-specials-container {
+    border: 2px solid black;
+}
+.menu-drinks-container {
+    border: 2px solid black;
+}
+
+.menu-category-containers {
+    width: 100%;
+    height: 225px;
+     background: /*linear-gradient(180deg, var(--primary), var(--secondary)), */
+                url('https://imgur.com/gooGYZx.png') no-repeat center center / cover;
+}
+
+.menu-category-titles {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 20px;
+    font-size: 40px;
+    height: 225px;
+    color: white;
+}

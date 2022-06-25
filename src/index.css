@@ -23,6 +23,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: hsla(0, 0%, 100%, 0.45);
+  /* background-image: url('https://imgur.com/bWERgnV.png'); */
   /* padding: 2vmin; */
   height: 100vh;
 }

@@ -23,7 +23,7 @@
 }
 
 .nav-links:hover {
-    background-color: #ff7d0a;
+    background-color: hsla(30, 100%, 50%, 0.35);
     color: white;
 }
 
@@ -38,8 +38,14 @@
     color: black;
 }
 
+.line-break {
+    width: 90%;
+    color: hsla(30, 100%, 50%, 0.35);
+}
+
 #burger:hover {
     background-color: white;
+
 }
 
 #logout {

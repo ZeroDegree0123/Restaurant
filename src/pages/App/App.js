@@ -10,6 +10,9 @@ import Footer from "../../Components/Footer/Footer";
 import Menu from "../MenuPage/MenuPage";
 import Home from "../HomePage/HomePage";
 import Rewards from "../RewardsPage/RewardsPage";
+import About from "../AboutPage/AboutPage";
+import Careers from "../CareersPage/CareersPage";
+
 
 export default function App() {
   const [user, setUser] = useState(getUser());
@@ -25,6 +28,8 @@ export default function App() {
             <Route path="/menu" element={<Menu />} />
             <Route path="/" element={<Home />} />
             <Route path="/rewards" element={<Rewards />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/careers" element={<Careers />} />
           </Routes>
           <Footer/>
         </>
