@@ -5,10 +5,9 @@ export default function MenuPage() {
     return (
         <>
             <main className="menu-container">
-                <h1 className="menu-title">MENU</h1>
-                <h2>DONT FORGET TO REMOVE BORDERS</h2>
+                <h1 className="menu-title">MAIN MENU</h1>
                 <section className="menu-appetizers-container">
-                    <div className="menu-category-containers">
+                    <div className="menu-category-images-appetizer">
                         <h1 className="menu-category-titles">APPETIZERS</h1>
                     </div>
                     <div className="menu-body-container">
@@ -69,7 +68,7 @@ export default function MenuPage() {
                     </div>
                 </section>
                 <section className="menu-salads-container">
-                    <div className="menu-category-containers">
+                    <div className="menu-category-images-salad">
                         <h1 className="menu-category-titles">SALADS</h1>
                     </div>
                     <div className="menu-body-container" >
@@ -119,7 +118,7 @@ export default function MenuPage() {
                     </div>
                 </section>
                 <section className="menu-burgers-container">
-                    <div className="menu-category-containers">
+                    <div className="menu-category-images-burger">
                         <h1 className="menu-category-titles">BURGERS</h1>
                     </div>
                     <div className="menu-body-container">
@@ -180,7 +179,7 @@ export default function MenuPage() {
                     </div>
                 </section>
                 <section className="menu-kids-container">
-                <div className="menu-category-containers">
+                <div className="menu-category-images-kid">
                     <h1 className="menu-category-titles">KIDS</h1>
                 </div>
                     <div className="menu-body-container">
@@ -212,7 +211,7 @@ export default function MenuPage() {
                    
                 </section>
                 <section className="menu-desserts-container">
-                <div className="menu-category-containers">
+                <div className="menu-category-images-dessert">
                     <h1 className="menu-category-titles">DESSERTS</h1>
                 </div>
                     <div className="menu-body-container">
@@ -261,7 +260,7 @@ export default function MenuPage() {
                     </div>
                 </section>
                 <section className="menu-specials-container">
-                <div className="menu-category-containers">
+                <div className="menu-category-images-special">
                     <h1 className="menu-category-titles">SPECIALS</h1>
                 </div>
                     <div className="menu-body-container">
@@ -275,7 +274,7 @@ export default function MenuPage() {
                     
                 </section>
                 <section className="menu-drinks-container">
-                <div className="menu-category-containers">
+                <div className="menu-category-images-drink">
                     <h1 className="menu-category-titles">DRINKS</h1>
                 </div>
                     <div className="menu-body-container">

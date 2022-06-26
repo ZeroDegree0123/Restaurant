@@ -4,6 +4,8 @@
     --third: hsla(30, 100%, 50%, 0.35);
     --fourth: hsla(0, 0%, 100%, 0.35);
     --fith: hsl(32, 100%, 35%);
+    --sixth: hsl(32, 100%, 14%);
+    --seventh: hsla(30, 100%, 50%, 0.85);
 }
 
 .menu-container {
@@ -14,11 +16,9 @@
 .menu-title {
     display: flex;
     justify-content: flex-start;
-}
-
-.menu-appetizers-container {
-    border: 2px solid black;
-    
+    font-size: 50px;
+    color: var(--fith);
+    /* text-shadow: 1px 2px var(--sixth); */
 }
 
 .menu-body-container {
@@ -30,6 +30,17 @@
     margin-top: 10px;
     flex-wrap: wrap;
     height: 100%;
+}
+
+.menu-category-titles {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 20px;
+    font-size: 40px;
+    height: 225px;
+    color: var(--seventh);
+    text-shadow: 1px 3px var(--sixth);
 }
 
 .menu-body {
@@ -49,43 +60,80 @@
     margin: 6px;
 }
 
+.menu-appetizers-container {
+    padding: 2px; 
+}
+
 .menu-salads-container {
-    border: 2px solid black;
+    padding: 2px;
 }
 
 .menu-burgers-container {
-    border: 2px solid black;
+    padding: 2px;
 }
 
 .menu-kids-container {
-    border: 2px solid black;
+    padding: 2px;
 }
 
 .menu-desserts-container {
-    border: 2px solid black;
+    padding: 2px;
 }
 
 .menu-specials-container {
-    border: 2px solid black;
+    padding: 2px;
 }
 
 .menu-drinks-container {
-    border: 2px solid black;  
+    padding: 2px;  
 }
 
-.menu-category-containers {
+.menu-category-images-appetizer {
     width: 100%;
     height: 225px;
      background: /*linear-gradient(180deg, var(--primary), var(--secondary)), */
                 url('https://imgur.com/gooGYZx.png') no-repeat center center / cover;
 }
 
-.menu-category-titles {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    padding: 20px;
-    font-size: 40px;
+.menu-category-images-salad {
+    width: 100%;
     height: 225px;
-    color: white;
+     background: /*linear-gradient(180deg, var(--primary), var(--secondary)), */
+                url('https://imgur.com/jd6wMjg.png') no-repeat center center / cover;
 }
+
+.menu-category-images-burger {
+    width: 100%;
+    height: 225px;
+     background: /*linear-gradient(180deg, var(--primary), var(--secondary)), */
+                url('https://imgur.com/f3VHTLd.png') no-repeat center center / cover;
+}
+
+.menu-category-images-kid {
+    width: 100%;
+    height: 225px;
+     background: /*linear-gradient(180deg, var(--primary), var(--secondary)), */
+                url('https://imgur.com/Ua5jf9K.png') no-repeat center center / cover;
+}
+
+.menu-category-images-dessert {
+    width: 100%;
+    height: 225px;
+     background: /*linear-gradient(180deg, var(--primary), var(--secondary)), */
+                url('https://imgur.com/pfv2ruS.png') no-repeat center center / cover;
+}
+
+.menu-category-images-special {
+    width: 100%;
+    height: 225px;
+     background: /*linear-gradient(180deg, var(--primary), var(--secondary)), */
+                url('https://imgur.com/gVSNyGm.png') no-repeat center center / cover;
+}
+
+.menu-category-images-drink {
+    width: 100%;
+    height: 225px;
+     background: /*linear-gradient(180deg, var(--primary), var(--secondary)), */
+                url('https://imgur.com/n6oM01k.png') no-repeat center center / cover;
+}
+
