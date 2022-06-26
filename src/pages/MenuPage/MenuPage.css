@@ -1,3 +1,11 @@
+:root {
+    --primary: hsla(30, 95%, 64%, 0.35);
+    --secondary: hsla(0, 0%, 0%, 0.95);
+    --third: hsla(30, 100%, 50%, 0.35);
+    --fourth: hsla(0, 0%, 100%, 0.35);
+    --fith: hsl(32, 100%, 35%);
+}
+
 .menu-container {
     display: block;
     margin: 60px
@@ -10,24 +18,59 @@
 
 .menu-appetizers-container {
     border: 2px solid black;
+    
 }
+
+.menu-body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.menu-body {
+    text-align: left;
+    width: 200px;
+    margin: 0;
+}
+
+.menu-body-titles {
+    font-size: 17px;   
+    margin: 6px;
+    color: var(--fith)
+}
+
+.menu-body-descriptions {
+    font-size: 14px;
+    margin: 6px;
+}
+
 .menu-salads-container {
     border: 2px solid black;
 }
+
 .menu-burgers-container {
     border: 2px solid black;
 }
+
 .menu-kids-container {
     border: 2px solid black;
 }
+
 .menu-desserts-container {
     border: 2px solid black;
 }
+
 .menu-specials-container {
     border: 2px solid black;
 }
+
 .menu-drinks-container {
-    border: 2px solid black;
+    border: 2px solid black;  
 }
 
 .menu-category-containers {
