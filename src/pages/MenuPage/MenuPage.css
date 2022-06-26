@@ -60,6 +60,34 @@
     margin: 6px;
 }
 
+.sides-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid var(--fith);
+    padding: 10px;
+}
+
+.sides-title {
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    font-size: 25px;
+    color: var(--seventh);
+    text-shadow: 1px 2px var(--sixth);
+}
+
+.individual-sides {
+    padding: 5px;
+    margin: 0;
+    font-size: 14;
+    color: var(--fith)
+}
+
 .menu-appetizers-container {
     padding: 2px; 
 }
@@ -80,9 +108,9 @@
     padding: 2px;
 }
 
-.menu-specials-container {
+/* .menu-specials-container {
     padding: 2px;
-}
+} */
 
 .menu-drinks-container {
     padding: 2px;  
@@ -123,12 +151,10 @@
                 url('https://imgur.com/pfv2ruS.png') no-repeat center center / cover;
 }
 
-.menu-category-images-special {
+/* .menu-category-images-special {
     width: 100%;
     height: 225px;
-     background: /*linear-gradient(180deg, var(--primary), var(--secondary)), */
-                url('https://imgur.com/gVSNyGm.png') no-repeat center center / cover;
-}
+} */
 
 .menu-category-images-drink {
     width: 100%;
