@@ -7,7 +7,7 @@ export default function HomePage() {
             <main>
                 <section className="header-container">
                     <div className="order-container">
-                        <h1>TIME TO FEAST!</h1>
+                        <h1 className="order-body">TIME TO FEAST!</h1>
                         <a className="order-link" href="orders/new">ORDER NOW</a>
                     </div>
                 </section>
@@ -44,17 +44,17 @@ export default function HomePage() {
                     <div className="bottom-links">
                         <img className="bottom-link-images-1" src="https://imgur.com/cYaa7zE.png" alt="" />
                         <p className="bottom-link-body-1">BECOME APART OF THE TEAM</p>
-                        <a id="a-tags" className="bottom-link-links" href="/careers">Careers</a>
+                        <a className="bottom-link-links" href="/careers">Careers</a>
                     </div>
                     <div className="bottom-links"> 
                     <img className="bottom-link-images" src="https://imgur.com/hPMlmCu.png" alt="" />
                         <p className="botttom-link-body">LEARN ABOUT US</p>
-                        <a id="a-tags" className="bottom-link-links" href="/about">About</a>
+                        <a id="middle-a-tag" className="bottom-link-links" href="/about">About</a>
                     </div>
                     <div className="bottom-links">
                         <img className="bottom-link-images" src="https://imgur.com/FGYGh5O.png" alt="" />
                         <p className="botttom-link-body">SIGN UP FOR NEWS AND DEALS</p>
-                        <a id="a-tags" className="bottom-link-links" href="/logout">Sign-Up</a>
+                        <a className="bottom-link-links" href="/logout">Sign-Up</a>
                     </div>
                 </section>
 

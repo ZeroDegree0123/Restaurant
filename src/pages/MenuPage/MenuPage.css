@@ -45,7 +45,7 @@
 
 .menu-body {
     text-align: left;
-    width: 200px;
+    width: 280px;
     margin: 0;
 }
 
@@ -68,6 +68,7 @@
     align-items: center;
     border: 2px solid var(--fith);
     padding: 10px;
+    margin-top: 20px;
 }
 
 .sides-title {
@@ -163,3 +164,62 @@
                 url('https://imgur.com/n6oM01k.png') no-repeat center center / cover;
 }
 
+@media only screen and (min-width: 1600px) {
+    .menu-container {
+        margin: 100px;
+        margin-top: 50px;
+    }
+
+    .menu-title {
+        font-size: 65px;
+    }
+
+    .menu-body {
+        width: 360px;
+    }
+
+    .menu-category-titles {
+        font-size: 45px;
+    }
+
+    .menu-body-titles {
+        font-size: 20px;
+    }
+
+    .menu-body-descriptions{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .menu-body-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .menu-body {
+        width: 200px;
+        
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-title {
+        font-size: 50px;
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .menu-category-titles {
+        justify-content: center;
+        text-shadow: 2px 5px var(--sixth);
+    }
+
+    .menu-body {
+        width: 360px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+}
