@@ -6,8 +6,8 @@ export default function RewardsPage() {
         <>
         <section className="reward-header-container">
             <img className="header-burger-image" src="https://imgur.com/pgIGRqP.png" alt="" />
-            <div>
-                <h1 className="header-title">ZACHS LOYALTY REWARDS</h1>
+            <div className="header-center-container">
+                <h1 className="header-title">ZACHS REWARDS</h1>
                 <p className="header-body">
                     Welcome to Zach's Rewards, where you can enjoy sweet deals
                     and exclusive rewards like a Free Birthday dinner. The more points
@@ -17,56 +17,84 @@ export default function RewardsPage() {
                 {/* <a href="">CHECK YOUR REWARDS</a> */}
             </div>
             <img className="header-salad-image" src="https://imgur.com/T95AqEz.png" alt="" />
-            <div className="spacer"></div>
         </section>
-        <section className="reward-benefits-container">
-            <div className="benefits-card">
-                <img src="" alt="" />
-                <h1>benefits container</h1>
-                <p>happy bday gift</p>
-            </div>
-            <div className="benefits-card">
-                <img src="" alt="" />
-                <h1>benefits container</h1>
-                <p>happy bday gift</p>
-            </div>
-            <div className="benefits-card">
-                <img src="" alt="" />
-                <h1>benefits container</h1>
-                <p>happy bday gift</p>
-            </div>
-            <div className="benefits-card">
-                <img src="" alt="" />
-                <h1>benefits container</h1>
-                <p>happy bday gift</p>
-            </div>
-            <div className="benefits-card">
-                <img src="" alt="" />
-                <h1>benefits container</h1>
-                <p>happy bday gift</p>
-            </div>
-            <div className="benefits-card">
-                <img src="" alt="" />
-                <h1>benefits container</h1>
-                <p>happy bday gift</p>
-            </div>
-            <div className="spacer"></div>
-        </section>
+        <div className="benefits-background">
+            <section className="reward-benefits-container">
+                <h1 className="benefits-header">BENEFITS FOR MEMBERS</h1>
+                <div className="benefits-card">
+                    <img className="card-image" src="https://imgur.com/3kuwbTX.png" alt="" />
+                    <h1 className="card-title">FREE BIRTHDAY DINNER</h1>
+                    <p className="card-body">
+                        Choose any dinner entree and its on us 
+                        (valid once during the month of your birthday)
+                    </p>
+                </div>
+                <div className="benefits-card">
+                    <h2 id="card-image-numbers" className="card-image">250</h2>
+                    <h1 className="card-title">EVERY 250 POINTS $10 off</h1>
+                    <p className="card-body">
+                        When you reach 250 points you can redeem them 
+                        for $10 off your next purchase
+                    </p>
+                </div>
+                <div className="benefits-card">
+                    <h2 id="card-image-numbers" className="card-image">400</h2>
+                    <h1 className="card-title">EVERY 400 POINTS GET A FREE ENTREE</h1>
+                    <p className="card-body">
+                        When you reach 400 points you can redeem them 
+                        for a free entree
+                    </p>
+                </div>
+                <div className="benefits-card">
+                    <img className="card-image" src="https://imgur.com/yumHigF.png" alt="" />
+                    <h1 className="card-title">MILITARY REWARDS</h1>
+                    <p className="card-body">
+                        Benefits for those who have served us proudly
+                    </p>
+                </div>
+                <div className="benefits-card">
+                    <img className="card-image" src="https://imgur.com/dr1FRBY.png" alt="" />
+                    <h1 className="card-title">TEACHER REWARDS</h1>
+                    <p className="card-body">
+                        Enjoy gifts every month as a thanks for your
+                        dedication
+                    </p>
+                </div>
+                <div className="benefits-card">
+                    <img className="card-image" src="https://imgur.com/MqzAICw.png" alt="" />
+                    <h1 className="card-title">SPECIAL OFFERS</h1>
+                    <p className="card-body">
+                        every month holds exclusive rewards and gifts 
+                        that get add to your dashboard, be sure to check in 
+                        often to see what little suprises await you.
+                    </p>
+                </div>
+                <div className="spacer"></div>
+            </section>  
+        </div>
         <section className="reward-earning-container">
-            <div>
-                <h1>how to earn rewards container</h1>
-                <h2>title</h2>
-                <p>description</p>
-                <h2>title</h2>
-                <p>description</p>
-                <h2>title</h2>
-                <p>description</p>
+            <div className="earning-main-container">
+                <h1 className="earning-header">HOW TO EARN AND USE YOUR REWARDS</h1>
+                <h2 className="earning-title">HOW TO EARN</h2>
+                <p className="earning-body">
+                    For everytime you visit you earn points
+                    based on what you purchase. Points build up overtime
+                    and roll over each year
+                </p>
+                <h2 className="earning-title">HOW TO USE</h2>
+                <p className="earning-body">
+                    As a member your rewards and benefits appear each time you
+                    go to pay. If theres a spcial deal or you have enough points 
+                    to redeem an offer, just apply the reward and we'll handle the 
+                    rest
+                </p>
+                <h2 className="earning-title">NOT A MEMBER</h2>
+                <p className="earning-body">Join Today</p>
             </div>
-            <div>
-                <img src="" alt="" />
+            <div className="earning-image-contianer">
+                <img className="earning-image" src="" alt="" />
             </div>
             {/* <a href="">check your rewards</a> */}
-            <div className="spacer"></div>
         </section>
         
         </>

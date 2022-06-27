@@ -1,11 +1,29 @@
+:root {
+    --primary: hsla(30, 95%, 64%, 0.35);
+    --secondary: hsla(0, 0%, 0%, 0.95);
+    --third: hsla(30, 100%, 50%, 0.35);
+    --fourth: hsla(0, 0%, 100%, 0.35);
+    --fith: hsl(32, 100%, 35%);
+    --sixth: hsl(32, 100%, 14%);
+    --seventh: hsla(30, 100%, 50%, 0.85);
+    --eighth: hsla(193, 6%, 48%, 0.35);
+}
+
+
+
 .spacer{ 
-    height: 500px;
+    height: 100px;
+    width: 100%;
 }
 
 .reward-header-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
+    margin-bottom: 250px;
+    margin-top: 100px;
 }
 
 .header-burger-image {
@@ -18,18 +36,139 @@
     height: 300px;
 }
 
+.header-center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .header-title {
-    font-size: 45px;
+    font-size: 55px;
+    color: var(--seventh)
 }
 
 .header-body {
-    font-size: 20px;
+    font-size: 17px;
+    width: 600px;
+    color: var(--sixth);
 }
 
 .join-tag {
     text-decoration: none;
-    color: black;
+    color: var(--fith);
     padding: 10px;
+    width: 150px;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 2px solid var(--fith);
+}
+
+.join-tag:hover {
+    background-color: var(--third);
+}
+
+.benefits-background {
+    padding: 10px;
+    margin: 0;
+    height: 100%;
+    background-image: url('https://imgur.com/hO9fhqf.png');
+}
+
+.reward-benefits-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow:1px 3px 9px rgb(0 0 0 / 20%);
+    background: white;
+    /* background-image: url('https://imgur.com/hO9fhqf.png'); */
+}
+
+.benefits-header {
+    display: block;
+    width: 100%;
+    font-size: 60px;
+    color: var(--seventh)
+}
+
+.benefits-card {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px dotted var(--third);
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.card-title {
+    font-size: 20px;
+    height: 40px;
+    color: var(--fith);
+}
+
+.card-body {
+    height: 100px;
+    color: var(--sixth);
+}
+
+.reward-earning-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.earning-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    width: 1000%;
+}
+
+.earning-image-container {
+    display: flex;
+}
+
+.earning-header {
+    display: block;
+    width: 100%;
+    font-size: 60px;
+    color: var(--seventh);
+}
+
+.earning-title {
+    width: 60%;
+    font-size: 25px;
+    text-align: left;
+    color: var(--fith);
+}
+
+.earning-body {
+    width: 60%;
+    text-align: left;
+    color: var(--sixth);
+}
+
+#card-image-numbers {
+    font-size: 50px;
 }
