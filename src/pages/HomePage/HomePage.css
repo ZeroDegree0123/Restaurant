@@ -107,10 +107,11 @@
     border-radius: 30px;
     padding: 5px;
     box-shadow: 2px 5px var(--third);
+    background-color: var(--third);
 }
 
 .rewards-link:hover {
-    background-color: hsla(30, 100%, 50%, 0.35);
+    background-color: var(--fith);
 }
 
 .menu-highlights {

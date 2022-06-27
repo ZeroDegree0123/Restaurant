@@ -1,0 +1,35 @@
+.spacer{ 
+    height: 500px;
+}
+
+.reward-header-container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.header-burger-image {
+    width: 300px;
+    height: 300px;
+}
+
+.header-salad-image {
+    width: 300px;
+    height: 300px;
+}
+
+.header-title {
+    font-size: 45px;
+}
+
+.header-body {
+    font-size: 20px;
+}
+
+.join-tag {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
