@@ -81,20 +81,20 @@ export default function RewardsPage() {
         <section className="reward-earning-container">
             <div className="earning-main-container">
                 <h1 className="earning-header">HOW TO EARN AND USE YOUR REWARDS</h1>
-                <h2 className="earning-title">HOW TO EARN</h2>
+                <h2 className="earning-title">-HOW TO EARN</h2>
                 <p className="earning-body">
                     For everytime you visit you earn points
                     based on what you purchase. Points build up overtime
                     and roll over each year
                 </p>
-                <h2 className="earning-title">HOW TO USE</h2>
+                <h2 className="earning-title">-HOW TO USE</h2>
                 <p className="earning-body">
                     As a member your rewards and benefits appear each time you
                     go to pay. If theres a spcial deal or you have enough points 
                     to redeem an offer, just apply the reward and we'll handle the 
                     rest
                 </p>
-                <h2 className="earning-title">NOT A MEMBER</h2>
+                <h2 className="earning-title">-NOT A MEMBER</h2>
                 <p className="earning-body">Join Today</p>
             </div>
             <div className="earning-image-contianer">
