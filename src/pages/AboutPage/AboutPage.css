@@ -1,0 +1,178 @@
+:root {
+    --primary: hsla(30, 95%, 64%, 0.35);
+    --secondary: hsla(0, 0%, 0%, 0.95);
+    --third: hsla(30, 100%, 50%, 0.35);
+    --fourth: hsl(35, 49%, 52%);
+    --fith: hsl(32, 100%, 35%);
+    --sixth: hsl(32, 100%, 14%);
+    --seventh: hsla(30, 100%, 50%, 0.85);
+}
+
+.about-header-container {
+    margin: 60px;
+}
+
+.about-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 600px;
+    background: linear-gradient(180deg, var(--primary), var(--secondary)),
+                url('https://imgur.com/l7WfRAV.png') no-repeat center center / cover;
+}
+
+.about-header-title {
+    margin: 10px;
+    width: 80%;
+    font-size: 50px;
+    color: white;
+}
+
+.about-header-body {
+    margin: 20px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    width: 80%;
+    font-size: 20px;
+    color: white;
+}
+
+.about-body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    border-radius: 10px;
+    box-shadow:1px 3px 9px rgb(0 0 0 / 20%);
+}
+
+.about-signup-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    width: 70%;
+}
+
+.about-career-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    width: 70%;
+}
+
+.about-body-image {
+    width: 450px;
+    height: 400px;
+}
+
+.about-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
+    height: 400px;
+    background: linear-gradient(90deg, white, var(--third));
+}
+
+.about-body-title {
+    font-size: 30px;
+    margin: 5px;
+    color: var(--sixth);
+}
+
+.about-body-body {
+    text-align: left;
+    padding-left: 10px; 
+    color: var(--sixth);
+    border-left: 4px solid var(--third);
+}
+
+.about-body-link {
+    text-decoration: none;
+    color: var(--fith);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid var(--fith);
+}
+
+.about-body-link:hover {
+    background-color: var(--third);
+}
+
+.about-community-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    /* background-image: url('https://imgur.com/hO9fhqf.png'); */
+}
+
+.contact-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    width: 800px;
+    height: 500px;
+    border: 2px dotted var(--third);
+}
+
+.contact-info-title {
+    font-size: 60px;
+    margin: 0;
+    color: var(--sixth);
+    margin-bottom: 10px;
+}
+
+.contact-line-break {
+    margin-bottom: 40px;
+    width: 60%;
+    /* color: var(--fith); */
+}
+
+.contact-info-body {
+   font-size: 20px;
+   width: 500px;
+   color: var(--fith);
+}
+
+.contact-info-link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+}
+
+.contact-info-link {
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+    color: var(--fith);
+    border-radius: 10px;
+    border: 2px solid var(--fith);
+}
+
+.contact-info-link:hover {
+    background-color: var(--third);
+}
+
+
+
+
+#about-member-card {
+    background: linear-gradient(270deg, white, var(--third));
+}
