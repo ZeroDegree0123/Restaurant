@@ -26,11 +26,14 @@ export default function RewardsPage() {
                     <h1 className="card-title">FREE BIRTHDAY DINNER</h1>
                     <p className="card-body">
                         Choose any dinner entree and its on us 
-                        (valid once during the month of your birthday)
+                        (Valid once during the month of your birthday)
                     </p>
                 </div>
                 <div className="benefits-card">
-                    <h2 id="card-image-numbers" className="card-image">250</h2>
+                    <div id="card-image-numbers" className="card-image">
+                        <h2 className="number-points">250</h2>
+                        <p className="points">POINTS</p>
+                    </div>
                     <h1 className="card-title">EVERY 250 POINTS $10 off</h1>
                     <p className="card-body">
                         When you reach 250 points you can redeem them 
@@ -38,7 +41,10 @@ export default function RewardsPage() {
                     </p>
                 </div>
                 <div className="benefits-card">
-                    <h2 id="card-image-numbers" className="card-image">400</h2>
+                    <div id="card-image-numbers" className="card-image">
+                        <h2 className="number-points">400</h2>
+                        <p className="points">POINTS</p>
+                    </div>
                     <h1 className="card-title">EVERY 400 POINTS GET A FREE ENTREE</h1>
                     <p className="card-body">
                         When you reach 400 points you can redeem them 
@@ -92,11 +98,15 @@ export default function RewardsPage() {
                 <p className="earning-body">Join Today</p>
             </div>
             <div className="earning-image-contianer">
-                <img className="earning-image" src="" alt="" />
+                <h2 className="earning-image-body">
+                    START
+                    EARNING
+                    TODAY
+                </h2>
+                <img className="earning-image" src="https://imgur.com/RHSpmXD.png" alt="" />
             </div>
             {/* <a href="">check your rewards</a> */}
         </section>
-        
         </>
     )
 }

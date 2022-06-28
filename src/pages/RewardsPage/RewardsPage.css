@@ -111,12 +111,22 @@
 
 .card-image {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 200px;
     margin: 0;
     padding: 0;
+}
+
+.number-points {
+    margin: 0;
+}
+
+.points {
+    font-size: 20px;
+    margin: 2px;
 }
 
 .card-title {
@@ -133,6 +143,8 @@
 .reward-earning-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -142,15 +154,33 @@
     justify-content: center;
     align-items: flex-start;
     margin: 20px;
-    width: 1000%;
+    margin-left: 100px;
+    margin-right: 80px;
+    width: 100%;
+    border: none;
 }
 
 .earning-image-container {
-    display: flex;
+    width: 600px;
+    height: 100%;
+}
+
+.earning-image {
+    width: 600px;
+    height: 700px;
+}
+
+.earning-image-body {
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    width: 50px;
+    padding: 10px; 
 }
 
 .earning-header {
     display: block;
+    text-align: left;
     width: 100%;
     font-size: 60px;
     color: var(--seventh);
@@ -164,11 +194,12 @@
 }
 
 .earning-body {
-    width: 60%;
+    width: 80%;
     text-align: left;
     color: var(--sixth);
 }
 
 #card-image-numbers {
     font-size: 50px;
+    margin: 0;
 }

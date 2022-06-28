@@ -20,7 +20,7 @@ export default function MenuPage() {
                         <div className="menu-body">
                             <h4 className="menu-body-titles">CHICKEN TENDERS</h4>
                             <p className="menu-body-descriptions">
-                                Served with cheddar cheese sauce and mustard
+                                Served with cheddar cheese sauce and honey mustard
                             </p>
                         </div>
                         <div className="menu-body">
