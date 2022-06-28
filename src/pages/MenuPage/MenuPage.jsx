@@ -62,7 +62,7 @@ export default function MenuPage() {
                             <h4 className="menu-body-titles">FAMILY NACHOS</h4>
                             <p className="menu-body-descriptions">
                                 Nachos topped with your choice of meat, cheddar cheese, olives, peppers, onion, and
-                                jalepenos. Served with guacamole and sour creme
+                                jalepenos. Served with guacamole and sour cream
                             </p>
                         </div>
                     </div>
