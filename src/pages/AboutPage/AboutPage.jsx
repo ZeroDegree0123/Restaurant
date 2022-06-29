@@ -24,7 +24,7 @@ export default function AboutPage() {
                             Sign up to Learn about the latest updates on menu items, fun events, 
                             special offers, and much more.
                         </p>
-                        <a className="about-body-link" href="">JOIN TODAY</a>
+                        <a className="about-body-link" href="/login">JOIN TODAY</a>
                     </div>
                 </div>
                 <div className="about-career-container">
@@ -36,7 +36,7 @@ export default function AboutPage() {
                             as our customers. If you like a supportive team, with the motivations to grow
                             and win together, then look no further. Apply today.
                         </p>
-                        <a className="about-body-link" href="">EXPLORE CAREERS</a>
+                        <a className="about-body-link" href="/careers">EXPLORE CAREERS</a>
                     </div>
                     <img className="about-body-image" src="https://imgur.com/j92LZvD.png" alt="" />
                 </div>

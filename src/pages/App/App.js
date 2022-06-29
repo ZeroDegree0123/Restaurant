@@ -34,7 +34,7 @@ export default function App() {
           <Footer/>
         </>
       ) : (
-        <Auth setUser={setUser} />
+        <Auth path="/login" setUser={setUser} />
       )}
     </main>
   );
