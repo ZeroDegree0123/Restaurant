@@ -16,66 +16,78 @@ export default function CareersPage() {
                     </p>
                 </div>
             </section>
+            <h1 className="positions-container-title">AVAILABLE POSITIONS</h1>
             <section className="company-positions-container">
-                <h1 className="positions-container-title">AVAILABLE POSITIONS</h1>
                 <div className="positions-container">
                     <div className="positions-card">
+                        <div className="positions-card-body-container">
+                           <h1 className="positions-title">SERVER</h1>
+                            <p className="positions-body">
+                                Serves and helps customers.
+                                Offering exceptional customer service
+                                and leacing our customers leaving with a smile.
+                            </p> 
+                        </div>                     
                         <img className="positions-image" src="https://imgur.com/XSenBva.png" alt="" />
-                        <h1 className="positions-title">SERVER</h1>
-                        <p className="positions-body">
-                            Serves and helps customers.
-                            Offering exceptional customer service
-                            and leacing our customers leaving with a smile.
-                        </p>
                     </div>
                     <div  className="positions-card">
+                        <div className="positions-card-body-container">
+                            <h1 className="positions-title">CHEF</h1>
+                            <p className="positions-body">
+                                cooks and prepares meals in a ordered and 
+                                timely manner. 
+                            </p>
+                        </div>  
                         <img className="positions-image" src="https://imgur.com/zPmGQNi.png" alt="" />
-                        <h1 className="positions-title">CHEF</h1>
-                        <p className="positions-body">
-                            cooks and prepares meals in a ordered and 
-                            timely manner. 
-                        </p>
                     </div>
                     <div className="positions-card">
+                        <div className="positions-card-body-container">
+                           <h1 className="positions-title">CASHIER</h1>
+                            <p className="positions-body">
+                                Cashes out customers, and ensuring customers were 
+                                satisfied with there visit.
+                            </p> 
+                        </div>     
                         <img className="positions-image" src="https://imgur.com/DlQXxRa.png" alt="" />
-                        <h1 className="positions-title">CASHIER</h1>
-                        <p className="positions-body">
-                            Cashes out customers, and ensuring customers were 
-                            satisfied with there visit.
-                        </p>
                     </div>
                     <div className="positions-card">
+                        <div className="positions-card-body-container">
+                            <h1 className="positions-title">MANAGER</h1>
+                            <p className="positions-body">
+                                Leads the shift and keeps the team organized. As manger, expectations are
+                                to Complete tasks with efficiency and ensure our customers are getting
+                                the service they need.
+                            </p>
+                        </div>
                         <img className="positions-image" src="https://imgur.com/lR7dadN.png" alt="" />
-                        <h1 className="positions-title">MANAGER</h1>
-                        <p className="positions-body">
-                            Leads the shift and keeps the team organized. As manger, expectations are
-                            to Complete tasks with efficiency and ensure our customers are getting
-                            the service they need.
-                        </p>
                     </div>
                     <div className="positions-card">
+                        <div className="positions-card-body-container">
+                            <h1 className="positions-title">ASSISSTANT MANAGER</h1>
+                            <p className="positions-body">
+                                This position is a mini manager, this position is 
+                                to train crew members to become a full fledged manager. 
+                            </p>
+                        </div>
                         <img className="positions-image" src="https://cdn2.iconfinder.com/data/icons/avatars-2-7/128/3-512.png" alt="" />
-                        <h1 className="positions-title">ASSISSTANT MANAGER</h1>
-                        <p className="positions-body">
-                            This position is a mini manager, this position is 
-                            to train crew members to become a full fledged manager. 
-                        </p>
                     </div>
                     <div className="positions-card">
+                        <div className="positions-card-body-container">
+                            <h1 className="positions-title">PREPPER</h1>
+                            <p className="positions-body">
+                                Preps food for the shift and helps keep the kitchen 
+                                clean.
+                            </p>
+                        </div>
                         <img className="positions-image" src="https://imgur.com/SiIR3Ah.png" alt="" />
-                        <h1 className="positions-title">PREPPER</h1>
-                        <p className="positions-body">
-                            Preps food for the shift and helps keep the kitchen 
-                            clean.
-                        </p>
                     </div>
                 </div>
             </section>
+            <h1 className="company-benefits-container-title">WORK WITH PASSION</h1>
             <section className="company-benefits-container">
-                <h1 className="company-benefits-container-title">WORK WITH PASSION</h1>
                 <div className="work-benefits-container">
                     <div className="work-card">
-                        <img className="work-image" src="https://imgur.com/mxIxivy.png" alt="" />
+                        <img className="work-image" src="https://imgur.com/hyK1xUv.png" alt="" />
                         <h1 className="work-title">COMPANY VIBES</h1>
                         <p className="work-body">
                             We ensure a comfortable enviroment where people can
@@ -113,7 +125,7 @@ export default function CareersPage() {
                         </p>
                     </div>
                     <div className="work-card">
-                        <img className="work-image" src="https://imgur.com/58XMyDp.png" alt="" />
+                        <img className="work-image" src="https://imgur.com/dMGFMz0.png" alt="" />
                         <h1 className="work-title">EDUCATION SUPPORT</h1>
                         <p className="work-body">
                             If this was a real company... we would offer scholarships, higher level
