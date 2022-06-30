@@ -5,7 +5,7 @@ export default function RewardsPage() {
     return (
         <>
         <section className="reward-header-container">
-            <img className="header-burger-image" src="https://imgur.com/pgIGRqP.png" alt="" />
+            <img id="burger-animation" className="header-burger-image" src="https://imgur.com/pgIGRqP.png" alt="" />
             <div className="header-center-container">
                 <h1 className="header-title">ZACHS REWARDS</h1>
                 <p className="header-body">
@@ -16,7 +16,7 @@ export default function RewardsPage() {
                 <a className="join-tag" href="/login">JOIN TODAY</a>
                 {/* <a href="">CHECK YOUR REWARDS</a> */}
             </div>
-            <img className="header-salad-image" src="https://imgur.com/T95AqEz.png" alt="" />
+            <img id="salad-animation" className="header-salad-image" src="https://imgur.com/T95AqEz.png" alt="" />
         </section>
         <div className="benefits-background">
             <section className="reward-benefits-container">
