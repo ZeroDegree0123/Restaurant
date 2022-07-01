@@ -218,7 +218,7 @@
 
 #burger-animation {
     position: relative;
-    left: -300px;
+    left: -450px;
     -webkit-animation: slide 1s forwards;
     -webkit-animation-delay: 2s;
     animation: slide 1s forwards;
@@ -227,7 +227,7 @@
 
 #salad-animation {
     position: relative;
-    right: -300px;
+    right: -450px;
     -webkit-animation: slide 1s forwards;
     -webkit-animation-delay: 2s;
     animation: slide 1s forwards;
