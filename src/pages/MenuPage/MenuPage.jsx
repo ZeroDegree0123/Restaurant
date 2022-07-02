@@ -20,7 +20,7 @@ export default function MenuPage() {
                         <div className="menu-body">
                             <h4 className="menu-body-titles">CHICKEN TENDERS</h4>
                             <p className="menu-body-descriptions">
-                                Served with cheddar cheese sauce and honey mustard
+                                Served with spicy ranch and honey mustard
                             </p>
                         </div>
                         <div className="menu-body">
@@ -120,7 +120,7 @@ export default function MenuPage() {
                         <div className="menu-body">
                             <h4 className="menu-body-titles">SPECIAL PEAR SALAD</h4>
                             <p className="menu-body-descriptions">
-                                Romain, kale, and spinach tossed with cranberry, grape tomatoe,
+                                Romaine, kale, and spinach tossed with cranberry, grape tomatoes,
                                 walnut and sliced pears. Comes with our signature sweet onion vinaigrette
                             </p>
                         </div>
@@ -134,48 +134,48 @@ export default function MenuPage() {
                         <div className="menu-body">
                             <h4 className="menu-body-titles">CLASSIC CHEESEBURGER</h4>
                             <p className="menu-body-descriptions">
-                                American cheese, with lettuce, tomatoe and onion.
+                                American cheese, with lettuce, tomato and onion.
                                 Pickle on the side  
                             </p>
                         </div>
                         <div className="menu-body">
                             <h4 className="menu-body-titles">BACON BURGER</h4>
                             <p className="menu-body-descriptions">
-                                Apple wood bacon and cheese, lettuce, tomatoe, onion 
+                                Apple wood bacon and cheese, lettuce, tomato, onion 
                                 and pickles on the side
                             </p>
                         </div>
                         <div className="menu-body">
                             <h4 className="menu-body-titles">BREAKFAST BURGER</h4>
                             <p className="menu-body-descriptions">
-                                Smoked bacon, fried eggs, swiss cheese, lettuce, tomatoe,
+                                Smoked bacon, fried eggs, swiss cheese, lettuce, tomato,
                                 onion and pickles on the side
                             </p>
                         </div>
                         <div className="menu-body">
                             <h4 className="menu-body-titles">HAWAIIN BURGER</h4>
                             <p className="menu-body-descriptions">
-                                Teriyaki-glazed patty, with pineapple, cheddar cheese, lettuce, tomatoe,
+                                Teriyaki-glazed patty, with pineapple, cheddar cheese, lettuce, tomato,
                                 onion and pickles on the side
                             </p>
                         </div>
                         <div className="menu-body">
                             <h4 className="menu-body-titles">BBQ BURGER</h4>
                             <p className="menu-body-descriptions">
-                                Smoked bacon, onion rings, cheddar cheese, lettuce, tomatoe, 
+                                Smoked bacon, onion rings, cheddar cheese, lettuce, tomato, 
                                 onion, and dressed with BBQ spread. Pickles on the side
                             </p>
                         </div>
                         <div className="menu-body">
-                            <h4 className="menu-body-titles">LA FRESCA BURGER</h4>
+                            <h4 className="menu-body-titles">TURKEY BURGER</h4>
                             <p className="menu-body-descriptions">
-                                Served with cheddar cheese sauce and mustard
+                                Turkey patty with lettuce, onion, tomato, and chipotle aioli
                             </p>
                         </div>
                         <div className="menu-body">
                             <h4 className="menu-body-titles">COLOSSAL BURGER</h4>
                             <p className="menu-body-descriptions">
-                                Served with two Quarter Pound beef pattys with lettuce, tomatoe,
+                                Served with two Quarter Pound beef pattys with lettuce, tomato,
                                 onion and pickles on the side
                             </p>
                         </div>
@@ -257,7 +257,7 @@ export default function MenuPage() {
                         <div className="menu-body">
                             <h4 className="menu-body-titles">ITALIAN DOUGHNUTS</h4>
                             <p className="menu-body-descriptions">
-                                fried doughnuts tossed in powdered sugar, comes with 
+                                Fried doughnuts tossed in powdered sugar, comes with 
                                 vanilla or chocolate dipping sauce
                             </p>
                         </div>
@@ -284,7 +284,7 @@ export default function MenuPage() {
                         <div className="menu-body">
                             <h4 className="menu-body-titles">CHOCOLATE BROWNIE CAKE</h4>
                             <p className="menu-body-descriptions">
-                                five layers of brownie chocolate cake and rich fudge icing,
+                                Five layers of brownie chocolate cake and rich fudge icing,
                                 topped with walnuts.  
                             </p>
                         </div>
@@ -292,7 +292,7 @@ export default function MenuPage() {
                             <h4 className="menu-body-titles">MILKSHAKES</h4>
                             <p className="menu-body-descriptions">
                                 Flavors are chocolate, strawberry, vanilla, oreo, and
-                                penutbutter chocolate
+                                peanut butter chocolate
                             </p>
                         </div>
                     </div>

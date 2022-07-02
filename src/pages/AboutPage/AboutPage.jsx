@@ -24,7 +24,7 @@ export default function AboutPage() {
                             Sign up to Learn about the latest updates on menu items, fun events, 
                             special offers, and much more.
                         </p>
-                        <a className="about-body-link" href="/login">JOIN TODAY</a>
+                        <a className="about-body-link" href="/">JOIN TODAY</a>
                     </div>
                 </div>
                 <div className="about-career-container">
@@ -50,9 +50,9 @@ export default function AboutPage() {
                     <h2 className="contact-info-title">Contact info</h2>
                     <hr className="contact-line-break" />
                     <p className="contact-info-body">
-                        Did you like my work? Feel free to contact me. I'm available
-                        for hire and would love to chat. You can check out my git hub, follow me 
-                        on linkedIn, or, feel free to email me. 
+                        Did you like my work? Feel free to contact me. I'm always looking for 
+                        new opportunities and would love to chat. You can check out my git hub, reach me 
+                        on linkedIn, or feel free to email me. 
                     </p>
                     <div className="contact-info-link-container">
                         <a className="contact-info-link" href="https://github.com/ZeroDegree0123" target="_blank">GitHub</a>

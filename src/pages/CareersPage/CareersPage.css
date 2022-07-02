@@ -1,12 +1,11 @@
-:root {
-    --primary: hsla(30, 95%, 64%, 0.35);
-    --secondary: hsla(0, 0%, 0%, 0.95);
-    --third: hsla(30, 100%, 50%, 0.35);
-    --fourth: hsl(35, 49%, 52%);
-    --fith: hsl(32, 100%, 35%);
-    --sixth: hsl(32, 100%, 14%);
-    --seventh: hsla(30, 100%, 50%, 0.85);
-}
+/* --primary: hsla(30, 95%, 64%, 0.35);
+--secondary: hsla(0, 0%, 0%, 0.95);
+--third: hsla(30, 100%, 50%, 0.35);
+--fourth: hsla(0, 0%, 100%, 0.35);
+--fith: hsl(32, 100%, 35%);
+--sixth: hsl(32, 100%, 14%);
+--seventh: hsla(30, 100%, 50%, 0.85);
+--eighth: hsla(193, 6%, 48%, 0.35); */
 
 .company-recruit-container {
    margin: 0px;
@@ -25,7 +24,7 @@
 }
 
 .recruit-title {
-    font-size: 70px;
+    font-size: 60px;
     width: 600px;
     color: white;
     text-shadow: 1px 3px var(--third);
@@ -86,6 +85,7 @@
 }
 
 .positions-title {
+    font-size: 24px;
     color: var(--fith)
 }
 
@@ -129,6 +129,7 @@
 
 .work-title {
     color: var(--fith);
+    font-size: 24px;
 }
 
 .work-body {

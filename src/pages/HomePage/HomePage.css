@@ -1,10 +1,11 @@
-:root {
-    --primary: hsla(30, 95%, 64%, 0.35);
-    --secondary: hsla(0, 0%, 0%, 0.95);
-    --third: hsla(30, 100%, 50%, 0.35);
-    --fourth: hsl(35, 49%, 52%);
-    --fith: hsl(32, 100%, 35%);
-}
+/* --primary: hsla(30, 95%, 64%, 0.35);
+--secondary: hsla(0, 0%, 0%, 0.95);
+--third: hsla(30, 100%, 50%, 0.35);
+--fourth: hsla(0, 0%, 100%, 0.35);
+--fith: hsl(32, 100%, 35%);
+--sixth: hsl(32, 100%, 14%);
+--seventh: hsla(30, 100%, 50%, 0.85);
+--eighth: hsla(193, 6%, 48%, 0.35); */
 
 .header-container {
     display: flex;
@@ -111,11 +112,11 @@
 }
 
 .rewards-link:hover {
-    background-color: var(--fith);
+    background-color: var(--third);
 }
 
 .menu-highlights {
-    font-size: 35px;
+    font-size: 60px;
     color: var(--fith);
     text-shadow: 1px 3px var(--third);
 }
@@ -190,6 +191,7 @@
     height: 250px;
     width: 250px;
     margin: 20px;
+    color: var(--sixth);
     border-radius: 10px;
     border: 1px dotted var(--third);
 }
@@ -207,7 +209,7 @@
 
 .bottom-link-links {
     margin-top: 10px;
-    color: black;
+    color: var(--sixth);
     text-decoration: none;
     font-size: 20px;
     padding: 15px;
@@ -216,7 +218,7 @@
 }
 
 .bottom-link-links:hover {
-    background-color: hsla(30, 100%, 50%, 0.35);
+    background-color: var(--third);
 }
 
 .bottom-link-body {

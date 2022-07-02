@@ -54,7 +54,7 @@ export default function HomePage() {
                     <div className="bottom-links">
                         <img className="bottom-link-images" src="https://imgur.com/FGYGh5O.png" alt="" />
                         <p className="botttom-link-body">SIGN UP FOR NEWS AND DEALS</p>
-                        <a className="bottom-link-links" href="/logout">Sign-Up</a>
+                        <a className="bottom-link-links" href="/">Sign-Up</a>
                     </div>
                 </section>
 

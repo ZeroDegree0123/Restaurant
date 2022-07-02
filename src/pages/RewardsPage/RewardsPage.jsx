@@ -13,7 +13,7 @@ export default function RewardsPage() {
                     and exclusive rewards like a Free Birthday dinner. The more points
                     you get the more tasty delights you get to treat yourself with.
                 </p>
-                <a className="join-tag" href="/login">JOIN TODAY</a>
+                <a className="join-tag" href="/">JOIN TODAY</a>
                 {/* <a href="">CHECK YOUR REWARDS</a> */}
             </div>
             <img id="salad-animation" className="header-salad-image" src="https://imgur.com/T95AqEz.png" alt="" />
