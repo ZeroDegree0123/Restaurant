@@ -198,7 +198,7 @@ export default function MenuPage() {
                             <h2 className="sides-title">SIDE ITEMS</h2>
                             <h4 className="individual-sides">FRENCH FRIES</h4>
                             &nbsp; | &nbsp;
-                            <h4 className="individual-sides">SWEET POTATOE FRIES</h4>
+                            <h4 className="individual-sides">SWEET POTATO FRIES</h4>
                             &nbsp; | &nbsp;
                             <h4 className="individual-sides">MAC & CHEESE</h4>
                             &nbsp; | &nbsp;
@@ -210,7 +210,7 @@ export default function MenuPage() {
                             &nbsp; | &nbsp;
                             <h4 className="individual-sides">ONION RINGS</h4>
                             &nbsp; | &nbsp;
-                            <h4 className="individual-sides">BAKED POTATOE</h4>
+                            <h4 className="individual-sides">BAKED POTATO</h4>
                             &nbsp; | &nbsp;
                             <h4 className="individual-sides">FRESH FRUIT</h4>
                         </div>
