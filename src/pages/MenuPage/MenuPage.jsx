@@ -277,7 +277,7 @@ export default function MenuPage() {
                         <div className="menu-body">
                             <h4 className="menu-body-titles">SPECIAL CHEESECAKE</h4>
                             <p className="menu-body-descriptions">
-                                Riscotta cheesecake with a shortbread cookie crust.
+                                Riscotta cheesecake with a sweet shortbread cookie crust.
                                 topped with strawberries
                             </p>
                         </div>
