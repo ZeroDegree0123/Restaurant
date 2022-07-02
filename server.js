@@ -7,8 +7,8 @@ const logger = require("morgan");
 require("dotenv").config();
 // Connect to DB AFTER dotenv is configured
 require("./config/database");
-const app = express();
 
+const app = express();
 //Have to invoke to configure
 app.use(logger("dev"));
 app.use(express.json());
