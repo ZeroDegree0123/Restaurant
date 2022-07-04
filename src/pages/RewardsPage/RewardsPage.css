@@ -7,6 +7,10 @@
 --seventh: hsla(30, 100%, 50%, 0.85);
 --eighth: hsla(193, 6%, 48%, 0.35); */
 
+main {
+    margin-top: 90px;
+}
+
 .spacer { 
     height: 100px;
     width: 100%;
@@ -76,7 +80,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 20px; 
+    margin: 50px; 
     margin-bottom: 100px;
     border-radius: 10px;
     box-shadow:1px 3px 9px rgb(0 0 0 / 20%);
@@ -140,30 +144,27 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+    margin: 20px;
 }
 
 .earning-main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 20px;
-    margin-left: 50px;
-    margin-right: 80px;
-    margin-bottom: 175px;
+    margin: 40px;
+    padding-top: 30px;
+    height: 600px;
     width: 100%;
     border: none;
 }
 
 .earning-image-container {
+    display: flex;
+    align-items: flex-start;
     width: 500px;
     height: 100%;
 }
 
 .earning-image {
-    width: 600px;
-    height: 700px;
+    width: 500px;
+    height: 600px;
     margin-right: 30px;
     margin: 20px;
     border-radius: 8px;
@@ -184,13 +185,13 @@
     text-align: left;
     color: var(--seventh);
     width: 100%;
-    font-size: 60px;
+    font-size: 45px;
     margin: 0;
     margin-bottom: 20px;
 }
 
 .earning-title {
-    width: 60%;
+    width: 100%;
     font-size: 18px;
     text-align: left;
     color: var(--fith);
@@ -263,20 +264,35 @@
     }
 
     .earning-main-container {
-        margin-bottom: 230px;
+        margin: 50px;
+        padding-top: 30px;
     }
 
     .earning-image-container {
         height: 600px;
     }
 
+    .earning-header {
+        font-size: 60px;
+    }
+
+    .earning-title {
+        font-size: 27px;
+    }
+
+    .earning-body {
+        font-size: 18px;
+    }
+
     .earning-image {
         margin: 40px;
+        width: 800px;
         height: 600px;
     }
 
     .earning-image-body {
-        padding-left: 30px;
+        padding: 40px;
+        padding-left: 40px;
     }
   
     #burger-animation {
@@ -317,7 +333,7 @@
 
     .earning-main-container {
         margin: 30px;
-        margin-bottom: 35px;
+        padding-top: 20px;
     }
 
     .earning-image-container {
@@ -354,7 +370,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .header-title {
         font-size: 50px;
         margin: 0;

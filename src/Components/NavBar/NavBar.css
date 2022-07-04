@@ -9,8 +9,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
     height: 100px;
     width: 100%;
+    z-index: 99999;
     /* background-image: url('https://imgur.com/hO9fhqf.png'); */
 }
 
@@ -88,9 +92,8 @@
         justify-content: center;
         align-items: center;
         height: 100px;
-        width: 80%;
+        width: 100%;
         padding: 8px;
-        margin-left: 30px;
     }
 
     .nav-links {
@@ -103,7 +106,7 @@
     .user-name {
         width: 50px;
         margin-left: 25px;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     #logout {
@@ -119,9 +122,8 @@
         justify-content: center;
         align-items: center;
         height: 100px;
-        width: 80%;
+        width: 100%;
         padding: 8px;
-        margin-left: 30px;
     }
 
     .nav-links {
@@ -141,7 +143,7 @@
     .user-name {
         width: 50px;
         margin-left: 25px;
-        font-size: 13px;
+        font-size: 10px;
     }
 
     #logout {
