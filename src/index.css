@@ -163,3 +163,12 @@ button[type="submit"] {
   grid-column: span 2;
   margin: 1vmin 0 0;
 }
+
+.signup-note {
+  margin: 40px;
+}
+
+.auth-container {
+  text-align: center;
+  margin: 80px;
+}
