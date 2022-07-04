@@ -359,6 +359,8 @@
         flex-direction: column;
         margin: 25px;
         padding: 15px;
+        /* transition-property: flex-direction;
+        transition-duration: 1s; */
     }
 
     .menu-highlights {

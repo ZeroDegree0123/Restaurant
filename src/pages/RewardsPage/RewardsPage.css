@@ -324,6 +324,10 @@
         height: 600px;
     }
 
+    .earning-header {
+        font-size: 35px;
+    }
+
     .earning-image {
         margin: 40px;
         height: 600px;

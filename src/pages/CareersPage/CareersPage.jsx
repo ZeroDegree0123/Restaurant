@@ -8,7 +8,7 @@ export default function CareersPage() {
                     <h1 className="recruit-title">THE HEART OF ZACH'S BURGERS</h1>
                     <p className="recruit-body">
                         Do you love your community? We do too. We strive to better our
-                        communites and believe we can make a defference. Our team is full
+                        communites and believe we can make a difference. Our team is full
                         of big dreamers, problem solvers, challenge takers and leaders of the 
                         future. In return for your hard work, we offer competing wages, career opportunities
                         and a supportive enviroment. Join us in the mission for a better tomorrow.
@@ -34,7 +34,7 @@ export default function CareersPage() {
                         <div className="positions-card-body-container">
                             <h1 className="positions-title">CHEF</h1>
                             <p className="positions-body">
-                                cooks and prepares meals in a ordered and 
+                                Cooks and prepares meals in a ordered and 
                                 timely manner. 
                             </p>
                         </div>  
@@ -55,8 +55,7 @@ export default function CareersPage() {
                             <h1 className="positions-title">MANAGER</h1>
                             <p className="positions-body">
                                 Leads the shift and keeps the team organized. As manger, expectations are
-                                to Complete tasks with efficiency and ensure our customers are getting
-                                the service they need.
+                                to complete tasks efficiently and ensure customers are cared for.
                             </p>
                         </div>
                         <img className="positions-image" src="https://imgur.com/lR7dadN.png" alt="" />
@@ -130,14 +129,14 @@ export default function CareersPage() {
                         <p className="work-body">
                             If this was a real company... we would offer scholarships, higher level
                             training and tuition reimbursement. We offer the support to help employees 
-                            build valuable skills for the future. 
+                            build valuable skills for their future. 
                         </p>
                     </div>
                     <div className="work-card">
                         <img className="work-image" src="https://imgur.com/X8xnlSl.png" alt="" />
                         <h1 className="work-title">AFFORDABLE HEALTHCARE</h1>
                         <p className="work-body">
-                            We want our team and there familiew to live comfortably.
+                            We want our team and there family to live comfortably.
                             That's why we offer affordable healthcare, dental and resources
                             in order to navigate through life.
                         </p>

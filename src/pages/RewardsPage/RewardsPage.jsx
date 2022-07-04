@@ -7,7 +7,7 @@ export default function RewardsPage() {
         <section className="reward-header-container">
             <img id="burger-animation" className="header-burger-image" src="https://imgur.com/pgIGRqP.png" alt="" />
             <div className="header-center-container">
-                <h1 className="header-title">ZACHS REWARDS</h1>
+                <h1 className="header-title">ZACH'S REWARDS</h1>
                 <p className="header-body">
                     Welcome to Zach's Rewards, where you can enjoy sweet deals
                     and exclusive rewards like a Free Birthday dinner. The more points
@@ -26,7 +26,7 @@ export default function RewardsPage() {
                     <h1 className="card-title">FREE BIRTHDAY DINNER</h1>
                     <p className="card-body">
                         Choose any dinner entree and its on us 
-                        (Valid once during the month of your birthday)
+                        (valid once during the month of your birthday)
                     </p>
                 </div>
                 <div className="benefits-card">
@@ -70,9 +70,9 @@ export default function RewardsPage() {
                     <img className="card-image" src="https://imgur.com/MqzAICw.png" alt="" />
                     <h1 className="card-title">SPECIAL OFFERS</h1>
                     <p className="card-body">
-                        every month holds exclusive rewards and gifts 
-                        that get add to your dashboard, be sure to check in 
-                        often to see what little suprises await you.
+                        Every month holds exclusive rewards and gifts 
+                        that get added to your dashboard, be sure to check in 
+                        often to see what little suprises await you
                     </p>
                 </div>
                 <div className="spacer"></div>
@@ -90,7 +90,7 @@ export default function RewardsPage() {
                 <h2 className="earning-title">-HOW TO USE</h2>
                 <p className="earning-body">
                     As a member your rewards and benefits appear each time you
-                    go to pay. If theres a spcial deal or you have enough points 
+                    go to pay. If theres a special deal or you have enough points 
                     to redeem an offer, just apply the reward and we'll handle the 
                     rest
                 </p>

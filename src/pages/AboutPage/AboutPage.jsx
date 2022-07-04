@@ -5,7 +5,7 @@ export default function AboutPage() {
         <>
             <section className="about-header-container">
                 <div className="about-header">
-                    <h2 className="about-header-title">ZACH's BURGERS IS HERE TO SERVE THE COMMUNITY</h2>
+                    <h2 className="about-header-title">ZACH'S BURGERS IS HERE TO SERVE THE COMMUNITY</h2>
                     <p className="about-header-body">
                         Here at Zach's Burgers, we cherish our customers and welcome everyone
                         to enjoy our delicious food. We know a meal is best enjoyed together, with 

@@ -90,7 +90,7 @@ export default function MenuPage() {
                             <h4 className="menu-body-titles">BBQ CHICKEN SALAD</h4>
                             <p className="menu-body-descriptions">
                                 BBQ grilled chicken with corn. Mixed with beans carrots,
-                                tomatoe, green onion, and cilantro on the side. Served with 
+                                tomato, green onion, and cilantro on the side. Served with 
                                 our special BBQ ranch dressing 
                             </p>
                         </div>
@@ -106,7 +106,7 @@ export default function MenuPage() {
                             <h4 className="menu-body-titles">ZACH'S HOUSE SALAD</h4>
                             <p className="menu-body-descriptions">
                                 Diced tomato, sliced cucumber, shredded Cheddar cheese and croutons
-                                on mixed greens with choice of dressing.
+                                on mixed greens with choice of dressing
                             </p>
                         </div>
                         <div className="menu-body">
@@ -183,14 +183,14 @@ export default function MenuPage() {
                             <h4 className="menu-body-titles">IMPOSSIBLE CHEESEBURGER</h4>
                             <p className="menu-body-descriptions">
                                 Our 100% Veggie patty with avocado, provolone, garlic aioli,
-                                lettuce tomatoe and onion. Pickles on the side
+                                lettuce tomato and onion. Pickles on the side
                             </p>
                         </div>
                         <div className="menu-body">
                             <h4 className="menu-body-titles">TUNA MELT</h4>
                             <p className="menu-body-descriptions">
                                 Fresh tuna on sour dough bread, melted in cheddar cheese with a mayo 
-                                spread. 
+                                spread
                             </p>
                         </div>
                     </div>
@@ -277,7 +277,7 @@ export default function MenuPage() {
                         <div className="menu-body">
                             <h4 className="menu-body-titles">SPECIAL CHEESECAKE</h4>
                             <p className="menu-body-descriptions">
-                                Riscotta cheesecake with a sweet shortbread cookie crust.
+                                Riscotta cheesecake with a sweet shortbread cookie crust,
                                 topped with strawberries
                             </p>
                         </div>
@@ -285,7 +285,7 @@ export default function MenuPage() {
                             <h4 className="menu-body-titles">CHOCOLATE BROWNIE CAKE</h4>
                             <p className="menu-body-descriptions">
                                 Five layers of brownie chocolate cake and rich fudge icing,
-                                topped with walnuts.  
+                                topped with walnuts  
                             </p>
                         </div>
                         <div className="menu-body">
