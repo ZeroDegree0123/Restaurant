@@ -28,10 +28,11 @@ export default function NewOrderPage() {
                     <button className="order-category-button" onClick={() => filterFood("Desserts")}>DESSERTS</button>
                     <button className="order-category-button" onClick={() => filterFood("Drinks")}>DRINKS</button>
                 </div>
+                <hr />
                 {/* className="menu-appetizers-container" */}
                 <section>
                 {/* className="menu-category-images-appetizer" */}
-                    <div className="menu-body-container">
+                    <div className="order-body-container">
                         {category.map((keys) => {
                             const {id, name, price, image} = keys
                             return (
