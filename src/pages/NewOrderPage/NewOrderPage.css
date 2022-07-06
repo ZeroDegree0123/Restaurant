@@ -1,0 +1,37 @@
+
+.order-category-button-container {
+    text-align: left;
+}
+
+.order-category-button {
+    font-size: 18px;
+    margin: 0;
+    margin-right: 12px;
+    padding: 15px;
+    background-color: var(--seventh);
+}
+
+.add-order-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 6px;
+}
+
+.order-body-titles {  
+    font-size: 22px;
+    margin: 6px;
+    padding-left: 3px;
+    color: var(--seventh);
+}
+
+.order-add-button {
+    background-color: var(--seventh);
+}
+
+#order-body {
+    border-radius: 5px;
+    border: 2px solid var(--third);
+    margin: 20px;
+}
