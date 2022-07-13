@@ -15,7 +15,7 @@ export default function HomePage() {
                     <div className="rewards-img"></div>
                     <div className="rewards-body">
                         <h1 className="rewards-text">ZACH'S REWARDS</h1>
-                        <h4 className="rewards-text">JOIN TO START EARNING</h4>
+                        <h4 id="rewards-middle-text" className="rewards-text">JOIN TO START EARNING</h4>
                         <a className="rewards-link" href="/rewards">START EARNING NOW</a>
                     </div>
                 </section>

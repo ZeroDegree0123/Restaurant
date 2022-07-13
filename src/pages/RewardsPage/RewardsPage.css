@@ -45,7 +45,7 @@ main {
 
 .header-title {
     font-size: 60px;
-    color: var(--seventh)
+    color: var(--seventh);
 }
 
 .header-body {
@@ -85,14 +85,13 @@ main {
     border-radius: 10px;
     box-shadow:1px 3px 9px rgb(0 0 0 / 20%);
     background: white;
-    /* background-image: url('https://imgur.com/hO9fhqf.png'); */
 }
 
 .benefits-header {
     display: block;
     width: 100%;
     font-size: 60px;
-    color: var(--seventh)
+    color: var(--seventh);
 }
 
 .benefits-card {
@@ -177,7 +176,6 @@ main {
     width: 50px;
     margin: 20px;
     padding: 10px;
-    
 }
 
 .earning-header {
@@ -230,13 +228,13 @@ main {
 }
 
 @-webkit-keyframes slide {
-    100% { right: 0; }
-    100% { left: 0; }
+    100% { right: 0; };
+    100% { left: 0; };
 }
 
 @keyframes slide {
-    100% { right: 0; }
-    100% { left: 0; }
+    100% { right: 0; };
+    100% { left: 0; };
 }
 
 @media only screen and (min-width: 1600px) {
@@ -356,7 +354,6 @@ main {
         padding-left: 30px;
     }
 
-
     #burger-animation {
         width: 200px;
         height: 200px;
@@ -371,6 +368,11 @@ main {
 }
 
 @media only screen and (max-width: 700px) {
+    .rewards-page-container {
+        margin-top: 0;
+        margin-bottom: 200px;
+    }
+
     .header-title {
         font-size: 50px;
         margin: 0;
@@ -382,13 +384,11 @@ main {
         height: 800px;
     }
 
-
     .reward-earning-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }
     
     .earning-main-container {
@@ -396,6 +396,7 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 60px;
     }
     
     .earning-image-container {
@@ -437,5 +438,4 @@ main {
         margin: 0;
         padding-left: 20px;
     }
-
 }

@@ -18,7 +18,6 @@
     justify-content: flex-start;
     font-size: 60px;
     color: var(--fith);
-    /* text-shadow: 1px 2px var(--sixth); */
 }
 
 .menu-body-container {
@@ -52,7 +51,7 @@
 .menu-body-titles {
     font-size: 17px;   
     margin: 6px;
-    color: var(--fith)
+    color: var(--fith);
 }
 
 .menu-body-descriptions {
@@ -87,7 +86,7 @@
     padding: 5px;
     margin: 0;
     font-size: 14;
-    color: var(--fith)
+    color: var(--fith);
 }
 
 .menu-appetizers-container {
@@ -110,10 +109,6 @@
     padding: 2px;
 }
 
-/* .menu-specials-container {
-    padding: 2px;
-} */
-
 .menu-drinks-container {
     padding: 2px;  
 }
@@ -121,42 +116,42 @@
 .menu-category-images-appetizer {
     width: 100%;
     height: 225px;
-     background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
+    background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
                 url('https://imgur.com/gooGYZx.png') no-repeat center center / cover;
 }
 
 .menu-category-images-salad {
     width: 100%;
     height: 225px;
-     background:linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
+    background:linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
                 url('https://imgur.com/jd6wMjg.png') no-repeat center center / cover;
 }
 
 .menu-category-images-burger {
     width: 100%;
     height: 225px;
-     background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
+    background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
                 url('https://imgur.com/f3VHTLd.png') no-repeat center center / cover;
 }
 
 .menu-category-images-kid {
     width: 100%;
     height: 225px;
-     background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
+    background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
                 url('https://imgur.com/Ua5jf9K.png') no-repeat center center / cover;
 }
 
 .menu-category-images-dessert {
     width: 100%;
     height: 225px;
-     background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
+    background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
                 url('https://imgur.com/pfv2ruS.png') no-repeat center center / cover;
 }
 
 .menu-category-images-drink {
     width: 100%;
     height: 225px;
-     background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
+    background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
                 url('https://imgur.com/n6oM01k.png') no-repeat center center / cover;
 }
 

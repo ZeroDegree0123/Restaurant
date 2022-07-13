@@ -114,7 +114,6 @@
     justify-content: center;
     align-items: center;
     margin: 60px;
-    /* background-image: url('https://imgur.com/hO9fhqf.png'); */
 }
 
 .contact-info-container {
@@ -138,13 +137,12 @@
 .contact-line-break {
     margin-bottom: 40px;
     width: 60%;
-    /* color: var(--fith); */
 }
 
 .contact-info-body {
-   font-size: 20px;
-   width: 500px;
-   color: var(--fith);
+    font-size: 20px;
+    width: 500px;
+    color: var(--fith);
 }
 
 .contact-info-link-container {

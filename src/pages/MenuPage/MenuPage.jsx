@@ -194,31 +194,31 @@ export default function MenuPage() {
                             </p>
                         </div>
                     </div>
-                        <div className="sides-container">
-                            <h2 className="sides-title">SIDE ITEMS</h2>
-                            <h4 className="individual-sides">FRENCH FRIES</h4>
-                            &nbsp; | &nbsp;
-                            <h4 className="individual-sides">SWEET POTATO FRIES</h4>
-                            &nbsp; | &nbsp;
-                            <h4 className="individual-sides">MAC & CHEESE</h4>
-                            &nbsp; | &nbsp;
-                            <h4 className="individual-sides">MASH POTATOES</h4>
-                            &nbsp; | &nbsp;
-                            <h4 className="individual-sides">CHILI</h4>
-                            &nbsp; | &nbsp;
-                            <h4 className="individual-sides">ROASTED VEGGIES</h4>
-                            &nbsp; | &nbsp;
-                            <h4 className="individual-sides">ONION RINGS</h4>
-                            &nbsp; | &nbsp;
-                            <h4 className="individual-sides">BAKED POTATO</h4>
-                            &nbsp; | &nbsp;
-                            <h4 className="individual-sides">FRESH FRUIT</h4>
-                        </div>
+                    <div className="sides-container">
+                        <h2 className="sides-title">SIDE ITEMS</h2>
+                        <h4 className="individual-sides">FRENCH FRIES</h4>
+                        &nbsp; | &nbsp;
+                        <h4 className="individual-sides">SWEET POTATO FRIES</h4>
+                        &nbsp; | &nbsp;
+                        <h4 className="individual-sides">MAC & CHEESE</h4>
+                        &nbsp; | &nbsp;
+                        <h4 className="individual-sides">MASH POTATOES</h4>
+                        &nbsp; | &nbsp;
+                        <h4 className="individual-sides">CHILI</h4>
+                        &nbsp; | &nbsp;
+                        <h4 className="individual-sides">ROASTED VEGGIES</h4>
+                        &nbsp; | &nbsp;
+                        <h4 className="individual-sides">ONION RINGS</h4>
+                        &nbsp; | &nbsp;
+                        <h4 className="individual-sides">BAKED POTATO</h4>
+                        &nbsp; | &nbsp;
+                        <h4 className="individual-sides">FRESH FRUIT</h4>
+                    </div>
                 </section>
                 <section className="menu-kids-container">
-                <div className="menu-category-images-kid">
-                    <h1 className="menu-category-titles">KIDS</h1>
-                </div>
+                    <div className="menu-category-images-kid">
+                        <h1 className="menu-category-titles">KIDS</h1>
+                    </div>
                     <div className="menu-body-container">
                         <div className="menu-body">
                             <h4 className="menu-body-titles">LIL BURGER</h4>
@@ -247,12 +247,11 @@ export default function MenuPage() {
                             </p>
                         </div>
                     </div>
-                   
                 </section>
                 <section className="menu-desserts-container">
-                <div className="menu-category-images-dessert">
-                    <h1 className="menu-category-titles">DESSERTS</h1>
-                </div>
+                    <div className="menu-category-images-dessert">
+                        <h1 className="menu-category-titles">DESSERTS</h1>
+                    </div>
                     <div className="menu-body-container">
                         <div className="menu-body">
                             <h4 className="menu-body-titles">ITALIAN DOUGHNUTS</h4>
@@ -298,9 +297,9 @@ export default function MenuPage() {
                     </div>
                 </section>
                 <section className="menu-drinks-container">
-                <div className="menu-category-images-drink">
-                    <h1 className="menu-category-titles">DRINKS</h1>
-                </div>
+                    <div className="menu-category-images-drink">
+                        <h1 className="menu-category-titles">DRINKS</h1>
+                    </div>
                     <div className="menu-body-container">
                         <div className="menu-body">
                             <h4 className="menu-body-titles">LEMONADE</h4>
@@ -334,7 +333,6 @@ export default function MenuPage() {
                             </p>
                         </div> 
                     </div>
-                   
                 </section>
             </main>
         </>

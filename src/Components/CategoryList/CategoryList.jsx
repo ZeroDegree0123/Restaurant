@@ -288,6 +288,5 @@ const Categories = [
             category: 'Sides',
         },
     ]
-
-
+    
     export default Categories;

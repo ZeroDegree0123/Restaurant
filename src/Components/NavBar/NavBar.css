@@ -2,8 +2,6 @@
     --green: #44ed85;
 }
 
-
-
 .nav-bar {
     display: flex;
     flex-direction: row;
@@ -15,7 +13,6 @@
     height: 100px;
     width: 100%;
     z-index: 99999;
-    /* background-image: url('https://imgur.com/hO9fhqf.png'); */
 }
 
 .nav-links {
@@ -38,8 +35,6 @@
     height: 80px;
     width: 80px;
 }
-
-
 
 .user-name {
     color: black;
@@ -81,7 +76,7 @@
 
     #logout {
         margin: 0;
-        width: 50%
+        width: 50%;
     }
 }
 
@@ -111,7 +106,7 @@
 
     #logout {
         margin: 0;
-        width: 50%
+        width: 50%;
     }
 }
 

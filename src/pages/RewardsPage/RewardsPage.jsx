@@ -4,7 +4,7 @@ import './RewardsPage.css'
 export default function RewardsPage() {
     return (
         <>
-            <main>
+            <main className="rewards-page-container">
                 <section className="reward-header-container">
                     <img id="burger-animation" className="header-burger-image" src="https://imgur.com/pgIGRqP.png" alt="" />
                     <div className="header-center-container">

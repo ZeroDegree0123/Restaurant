@@ -40,18 +40,17 @@ main {
 
 .order-link {
     text-decoration: none;
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 30px;
     padding: 5px;
     color: white;
     border: 3px solid white;
-    border-radius: 25px;
+    border-radius: 20px;
     background-color: hsla(30, 100%, 50%, 0.20);
 }
 
 .order-link:hover {
     background-color: hsla(30, 100%, 50%, 0.35);
-    /* background-color: #ff7d0a; */
 }
 
 .food-image {
@@ -69,6 +68,7 @@ main {
     margin-top: 90px;
     background-image: url('https://imgur.com/hO9fhqf.png');
 }
+
 .rewards-img {
     display: flex;
     flex-direction: row;
@@ -83,6 +83,7 @@ main {
     background: url('https://imgur.com/pbVmJ7T.png') no-repeat center center / cover;
     border-radius: 5px;
 }
+
 .rewards-body {
     display: flex;
     flex-direction: column;
@@ -91,7 +92,6 @@ main {
     padding: 10px;
     grid-area: 1 / 1 / 2 / 2;
     color: white;
-    /* background: linear-gradient(270deg, var(--third), var(--fourth)); */
     font-size: 45px;
     width: 95%;
     height: 600px;
@@ -108,7 +108,7 @@ main {
     color: white;
     font-size: 25px;
     border: 2px solid white;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 5px;
     box-shadow: 2px 5px var(--third);
     background-color: hsla(30, 100%, 50%, 0.20);
@@ -243,20 +243,18 @@ main {
 }
 
 #highlight-items:hover {
-  transform: scale(1.1);
-  transition: 0.4s;
+    transform: scale(1.1);
+    transition: 0.4s;
 }
-
-
 
 @media only screen and (min-width: 1600px) {
     .order-link {
         color: white;
-        font-size: 65px;
+        font-size: 40px;
         text-decoration: none;
         padding: 5px;
         border: 3px solid white;
-        border-radius: 25px;
+        border-radius: 20px;
         margin-top: 0;
     }
 
@@ -326,16 +324,17 @@ main {
         margin-bottom: 40px;
         font-size: 20px;
         padding: 10px;
-        border-radius: 20px;
+        border-radius: 10px;
     }
 
     .rewards-container {
-        margin-top: 20px;
+        margin-top: 60px;
     }
 
     .rewards-text {
         text-shadow: 2px 5px var(--third);
-        margin: 40px; 
+        margin: 50px; 
+        margin-bottom: 40px; 
         margin-left: 60px;
     }
 
@@ -352,6 +351,8 @@ main {
         font-size: 25px;
         border: 2px solid white;
         border-radius: 30px;
+        margin-bottom: 20px;
+        margin-left: 12px;
         padding: 5px;
         box-shadow: 2px 5px var(--third);
     }
@@ -361,15 +362,27 @@ main {
         flex-direction: column;
         margin: 25px;
         padding: 15px;
-        /* transition-property: flex-direction;
-        transition-duration: 1s; */
     }
 
     .menu-highlights {
         margin-top: 45px;
     }
 
+    .bottom-links-container {
+        margin-bottom: 20px;
+    }
+
+    .bottom-link-links {
+        font-size: 12px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    #rewards-middle-text {
+        margin-top: 0;
+    }
+
     #middle-a-tag {
-        margin-top: 26px;
+        margin-top: 24px;
     }
 }

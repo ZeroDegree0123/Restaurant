@@ -143,8 +143,6 @@ export default function CareersPage() {
                     </div>
                 </div>
             </section>
-            <section className="">
-            </section>
         </>
     )
 }
