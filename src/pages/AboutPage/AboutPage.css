@@ -202,9 +202,20 @@
     }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 1000px) {
+    .about-body-body {
+        font-size: 14px;
+    }
+
+    .about-body-link {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 840px) {
     .about-header-title {
-        font-size: 45px;
+        font-size: 32px;
+        text-shadow: 1px 3px black;
     }
 
     .about-signup-container {
@@ -218,8 +229,8 @@
     }
 
     .about-body-image {
-        width: 300px;
-        height: 200px;
+        width: 90%;
+        height: 250px;
     }
 
     .about-body {

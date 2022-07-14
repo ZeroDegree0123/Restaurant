@@ -2,6 +2,10 @@ import './HomePage.css'
 import { Link } from "react-router-dom";
 
 export default function HomePage() {
+    const handleClick = () => {
+        alert(`You are already signed up`)
+    }
+
     return (
         <>
             <main>
@@ -16,7 +20,7 @@ export default function HomePage() {
                     <div className="rewards-body">
                         <h1 className="rewards-text">ZACH'S REWARDS</h1>
                         <h4 id="rewards-middle-text" className="rewards-text">JOIN TO START EARNING</h4>
-                        <a className="rewards-link" href="/rewards">START EARNING NOW</a>
+                        <a className="rewards-link" href="/rewards" onClick={handleClick}>START EARNING NOW</a>
                     </div>
                 </section>
                 <h1 className="menu-highlights">MENU HIGHLIGHTS</h1>
@@ -54,7 +58,7 @@ export default function HomePage() {
                     <div className="bottom-links">
                         <img className="bottom-link-images" src="https://imgur.com/FGYGh5O.png" alt="" />
                         <p className="botttom-link-body">SIGN UP FOR NEWS AND DEALS</p>
-                        <a className="bottom-link-links" href="/">Sign-Up</a>
+                        <a className="bottom-link-links" href="/" onClick={handleClick}>Sign-Up</a>
                     </div>
                 </section>
 
