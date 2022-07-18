@@ -1,8 +1,8 @@
-import * as userService from "../../utilities/users-service";
+// import * as userService from "../../utilities/users-service";
 
 export default function OrderHistoryPage() {
   const handleCheckToken = async (evt) => {
-    const expDate = await userService.checkToken();
+    // const expDate = await userService.checkToken();
   };
 
   return (

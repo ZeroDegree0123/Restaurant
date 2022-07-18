@@ -59,9 +59,9 @@ export default function AboutPage() {
                         on linkedIn, or feel free to email me. 
                     </p>
                     <div className="contact-info-link-container">
-                        <a className="contact-info-link" href="https://github.com/ZeroDegree0123" target="_blank">GitHub</a>
-                        <a className="contact-info-link" href="https://www.linkedin.com/in/zacharymvasquez/" target="_blank">LinkedIn</a>
-                        <a className="contact-info-link" href="mailto:zachary.vasquez.w@gmail.com" target="_blank">Email</a>
+                        <a className="contact-info-link" href="https://github.com/ZeroDegree0123" target="_blank" rel="noreferrer">GitHub</a>
+                        <a className="contact-info-link" href="https://www.linkedin.com/in/zacharymvasquez/" target="_blank" rel="noreferrer">LinkedIn</a>
+                        <a className="contact-info-link" href="mailto:zachary.vasquez.w@gmail.com" target="_blank" rel="noreferrer">Email</a>
                     </div>
                 </div>
             </section>

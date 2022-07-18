@@ -32,7 +32,7 @@ export default function NewOrderPage() {
                 <section>
                     <div className="order-body-container">
                         {category.map((keys) => {
-                            const {id, name, price, image} = keys
+                            const {id, name, price} = keys
                             return (
                                 <>
                                     <div id="order-body" className="menu-body" key={id}>
