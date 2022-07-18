@@ -55,7 +55,7 @@ export default function AboutPage() {
                     <hr className="contact-line-break" />
                     <p className="contact-info-body">
                         Did you like my work? Feel free to contact me. I'm always looking for 
-                        new opportunities and would love to chat. You can check out my git hub, reach me 
+                        new opportunities and would love to talk. You can check out my git hub, reach me 
                         on linkedIn, or feel free to email me. 
                     </p>
                     <div className="contact-info-link-container">
