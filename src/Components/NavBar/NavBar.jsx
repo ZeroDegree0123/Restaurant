@@ -11,7 +11,7 @@ export default function NavBar({ user, setUser }) {
     <>
       <nav className="nav-bar">
         <Link id="burger" className="nav-links" to="/">
-          <img className="hamburger" src="https://imgur.com/tzwO2AI.png" alt="" />
+          <img className="hamburger" src="https://imgur.com/k6vcqML.png" alt="" />
         </Link>
         &nbsp;  &nbsp;
         <Link className="nav-links" to="menu">Menu</Link>

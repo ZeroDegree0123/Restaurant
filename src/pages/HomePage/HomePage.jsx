@@ -46,17 +46,17 @@ export default function HomePage() {
                 </section>
                 <section className="bottom-links-container">
                     <div className="bottom-links">
-                        <img className="bottom-link-images-1" src="https://imgur.com/cYaa7zE.png" alt="" />
+                        <img id="bottom-link-images-1" className="bottom-link-images" src="https://imgur.com/rELY0rz.png" alt="" />
                         <p className="bottom-link-body-1">BECOME APART OF THE TEAM</p>
                         <a className="bottom-link-links" href="/careers">Careers</a>
                     </div>
                     <div className="bottom-links"> 
-                    <img className="bottom-link-images" src="https://imgur.com/hPMlmCu.png" alt="" />
+                    <img className="bottom-link-images" src="https://imgur.com/8QvVyde.png" alt="" />
                         <p className="botttom-link-body">LEARN ABOUT US</p>
                         <a id="middle-a-tag" className="bottom-link-links" href="/about">About</a>
                     </div>
                     <div className="bottom-links">
-                        <img className="bottom-link-images" src="https://imgur.com/FGYGh5O.png" alt="" />
+                        <img className="bottom-link-images" src="https://imgur.com/nNl75uu.png" alt="" />
                         <p className="botttom-link-body">SIGN UP FOR NEWS AND DEALS</p>
                         <a className="bottom-link-links" href="/" onClick={handleClick}>Sign-Up</a>
                     </div>
