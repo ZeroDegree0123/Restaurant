@@ -144,7 +144,7 @@
     }
 }
 
-@media only screen and (max-width: 1270px) {
+@media only screen and (max-width: 1300px) {
     .recruit-body {
         width: 680px;
     }
@@ -153,6 +153,11 @@
         margin-bottom: 10px;
     }
     
+    .work-image {
+        width: 150px;
+        height: 150px;
+    }
+
     .positions-container {
         height: 100%;
     }
@@ -170,6 +175,7 @@
     }
     
     .positions-body {
+        font-size: 14px;
         margin: 5px;
         
     }

@@ -209,6 +209,15 @@ main {
     margin: 0;
 }
 
+#salad-animation {
+    position: relative;
+    right: -450px;
+    -webkit-animation: slide1 1s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide1 1s forwards;
+    animation-delay: 1s;
+}
+
 #burger-animation {
     position: relative;
     left: -450px;
@@ -218,23 +227,20 @@ main {
     animation-delay: 1s;
 }
 
-#salad-animation {
-    position: relative;
-    right: -450px;
-    -webkit-animation: slide 1s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slide 1s forwards;
-    animation-delay: 1s;
+@keyframes slide {
+    100% { left: 0; }
 }
 
 @-webkit-keyframes slide {
-    100% { right: 0; };
-    100% { left: 0; };
+    100% { left: 0; }
 }
 
-@keyframes slide {
-    100% { right: 0; };
-    100% { left: 0; };
+@keyframes slide1 {
+    100% { right: 0; }
+}
+
+@-webkit-keyframes slide1 {
+    100% { right: 0; }
 }
 
 @media only screen and (min-width: 1600px) {
@@ -308,6 +314,12 @@ main {
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .earning-body {
+        font-size: 14px;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .reward-header-container {
         margin-bottom: 130px;
@@ -367,7 +379,7 @@ main {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
     .rewards-page-container {
         margin-top: 0;
         margin-bottom: 200px;
