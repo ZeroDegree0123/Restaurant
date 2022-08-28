@@ -45,7 +45,7 @@ main {
     padding: 5px;
     color: white;
     border: 3px solid white;
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: hsla(30, 100%, 50%, 0.20);
 }
 
@@ -190,7 +190,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 100%;
     width: 250px;
     margin: 20px;
     color: var(--sixth);
@@ -222,7 +222,7 @@ main {
 }
 
 .bottom-link-body-1 {
-    margin-top: 27px;
+    margin-top: 16px;
 }
 
 #highlight-items {
@@ -366,10 +366,19 @@ main {
         margin-bottom: 20px;
     }
 
+    .bottom-links {
+        height: 80%;
+    }
+
     .bottom-link-links {
         font-size: 12px;
         margin: 0;
         padding: 10px;
+    }
+
+    .bottom-link-images {
+        width: 80px;
+        height: 80px;
     }
 
     #rewards-middle-text {
