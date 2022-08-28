@@ -59,7 +59,7 @@ main {
     color: var(--fith);
     padding: 10px;
     width: 150px;
-    border-radius: 20px;
+    border-radius: 12px;
     border: 2px solid var(--fith);
 }
 
