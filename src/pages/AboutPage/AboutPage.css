@@ -7,6 +7,11 @@
 --seventh: hsla(30, 100%, 50%, 0.85);
 --eighth: hsla(193, 6%, 48%, 0.35); */
 
+
+/* --------------------------------
+# About Header
+-------------------------------- */
+
 .about-header-container {
     margin: 60px;
 }
@@ -36,6 +41,10 @@
     font-size: 20px;
     color: white;
 }
+
+/* --------------------------------
+# About body
+-------------------------------- */
 
 .about-body-container {
     display: flex;
@@ -116,6 +125,14 @@
     margin: 60px;
 }
 
+#about-member-card {
+    background: linear-gradient(270deg, white, var(--third));
+}
+
+/* --------------------------------
+# About Contact Info
+-------------------------------- */
+
 .contact-info-container {
     display: flex;
     justify-content: center;
@@ -167,10 +184,9 @@
     background-color: var(--third);
 }
 
-#about-member-card {
-    background: linear-gradient(270deg, white, var(--third));
-}
-
+/* --------------------------------
+# About Media
+-------------------------------- */
 
 @media only screen and (min-width: 1600px) {
     .about-body-image {

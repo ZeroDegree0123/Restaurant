@@ -7,6 +7,10 @@
 --seventh: hsla(30, 100%, 50%, 0.85);
 --eighth: hsla(193, 6%, 48%, 0.35); */
 
+/* --------------------------------
+# Reward Header
+-------------------------------- */
+
 main {
     margin-top: 90px;
 }
@@ -66,6 +70,44 @@ main {
 .join-tag:hover {
     background-color: var(--third);
 }
+
+#salad-animation {
+    position: relative;
+    right: -450px;
+    -webkit-animation: slide1 1s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide1 1s forwards;
+    animation-delay: 1s;
+}
+
+#burger-animation {
+    position: relative;
+    left: -450px;
+    -webkit-animation: slide 1s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 1s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide1 {
+    100% { right: 0; }
+}
+
+@-webkit-keyframes slide1 {
+    100% { right: 0; }
+}
+
+/* --------------------------------
+# Reward Benefits
+-------------------------------- */
 
 .benefits-background {
     padding: 10px;
@@ -138,6 +180,15 @@ main {
     color: var(--sixth);
 }
 
+#card-image-numbers {
+    font-size: 50px;
+    margin: 0;
+}
+
+/* --------------------------------
+# Reward Earning
+-------------------------------- */
+
 .reward-earning-container {
     display: flex;
     flex-direction: row;
@@ -204,44 +255,9 @@ main {
     padding-left: 20px;
 }
 
-#card-image-numbers {
-    font-size: 50px;
-    margin: 0;
-}
-
-#salad-animation {
-    position: relative;
-    right: -450px;
-    -webkit-animation: slide1 1s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slide1 1s forwards;
-    animation-delay: 1s;
-}
-
-#burger-animation {
-    position: relative;
-    left: -450px;
-    -webkit-animation: slide 1s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slide 1s forwards;
-    animation-delay: 1s;
-}
-
-@keyframes slide {
-    100% { left: 0; }
-}
-
-@-webkit-keyframes slide {
-    100% { left: 0; }
-}
-
-@keyframes slide1 {
-    100% { right: 0; }
-}
-
-@-webkit-keyframes slide1 {
-    100% { right: 0; }
-}
+/* --------------------------------
+# Reward Media
+-------------------------------- */
 
 @media only screen and (min-width: 1600px) {
     .header-title {

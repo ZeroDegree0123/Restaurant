@@ -7,6 +7,10 @@
 --seventh: hsla(30, 100%, 50%, 0.85);
 --eighth: hsla(193, 6%, 48%, 0.35); */
 
+/* --------------------------------
+# Career Header
+-------------------------------- */
+
 .company-recruit-container {
     margin: 0px;
     margin-bottom: 60px;
@@ -37,6 +41,10 @@
     color: white;
     text-shadow: 1px 2px var(--sixth);
 }
+
+/* --------------------------------
+# Career Positions
+-------------------------------- */
 
 .company-positions-container {
     margin: 0;
@@ -93,6 +101,10 @@
     color: black;
 }
 
+/* --------------------------------
+# Career Benefits
+-------------------------------- */
+
 .company-benefits-container {
     margin: 50px;
     border-radius: 10px;
@@ -136,6 +148,9 @@
     color: var(--sixth);
 }
 
+/* --------------------------------
+# Career Media
+-------------------------------- */
 
 @media only screen and (min-width: 1600px) {
     .work-card {

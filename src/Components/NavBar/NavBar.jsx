@@ -18,8 +18,6 @@ export default function NavBar({ user, setUser }) {
         &nbsp;  &nbsp;
         <Link className="nav-links" to="rewards">Rewards</Link>
         &nbsp;  &nbsp;
-        {/* <Link className="nav-links" to="orders">Order History</Link>
-        &nbsp;  &nbsp; */}
         <Link className="nav-links" to="orders/new">Order</Link>
         &nbsp;  &nbsp;
         {user && (

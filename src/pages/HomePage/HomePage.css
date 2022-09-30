@@ -11,6 +11,9 @@ main {
     margin-top: 90px;
 }
 
+/* --------------------------------
+# Home Header
+-------------------------------- */
 .header-container {
     display: flex;
     flex-direction: row;
@@ -58,6 +61,10 @@ main {
     width: 100%;
     border-radius: 15px;
 }
+
+/* --------------------------------
+# Home Rewards
+-------------------------------- */
 
 .rewards-container {
     display: grid;
@@ -118,6 +125,10 @@ main {
     background-color: var(--third);
 }
 
+/* --------------------------------
+# Home Highlights
+-------------------------------- */
+
 .menu-highlights {
     font-size: 60px;
     color: var(--fith);
@@ -135,59 +146,6 @@ main {
     font-size: 30px;
     color: white;
     text-shadow: 1px 3px var(--third);
-}
-
-
-.bottom-links-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1.5vmin;
-    margin-bottom: 1.5vmin;
-    height: 400px;
-    width: 100%;
-    padding: 10px;
-}
-
-.bottom-links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 250px;
-    margin: 20px;
-    color: var(--sixth);
-    border-radius: 10px;
-    border: 1px dotted var(--third);
-}
-
-.bottom-link-images {
-    width: 100px;
-    height: 100px;
-}
-
-.bottom-link-links {
-    margin-top: 10px;
-    color: var(--sixth);
-    text-decoration: none;
-    font-size: 20px;
-    padding: 15px;
-    border-radius: 10px;
-    border: 2px solid var(--third);
-}
-
-.bottom-link-links:hover {
-    background-color: var(--third);
-}
-
-.bottom-link-body {
-    font-size: 10px;
-}
-
-.bottom-link-body-1 {
-    margin-top: 16px;
 }
 
 .highlight-items {
@@ -257,6 +215,67 @@ main {
 #kids:hover {
     transform: scale(1.09);
 }
+
+/* --------------------------------
+# Home Bottom Links
+-------------------------------- */
+
+.bottom-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5vmin;
+    margin-bottom: 1.5vmin;
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+}
+
+.bottom-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 250px;
+    margin: 20px;
+    color: var(--sixth);
+    border-radius: 10px;
+    border: 1px dotted var(--third);
+}
+
+.bottom-link-images {
+    width: 100px;
+    height: 100px;
+}
+
+.bottom-link-links {
+    margin-top: 10px;
+    color: var(--sixth);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid var(--third);
+}
+
+.bottom-link-links:hover {
+    background-color: var(--third);
+}
+
+.bottom-link-body {
+    font-size: 10px;
+}
+
+.bottom-link-body-1 {
+    margin-top: 16px;
+}
+
+
+/* --------------------------------
+# Home media 
+-------------------------------- */
 
 @media only screen and (min-width: 1600px) {
     .order-link {
