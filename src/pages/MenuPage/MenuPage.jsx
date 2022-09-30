@@ -1,7 +1,10 @@
 import './MenuPage.css'
 
 
-export default function MenuPage() {
+export default function MenuPage({scrollToTop}) {
+
+    scrollToTop();
+
     return (
         <>
             <main className="menu-container">
@@ -10,7 +13,7 @@ export default function MenuPage() {
                     <div className="menu-category-images-appetizer">
                         <h1 className="menu-category-titles">APPETIZERS</h1>
                     </div>
-                    <div className="menu-body-container">
+                    <div className="menu-body-container" id="apetizer-section">
                         <div className="menu-body">
                             <h4 className="menu-body-titles">PRETZEL BITES</h4>
                             <p className="menu-body-descriptions">
@@ -71,7 +74,7 @@ export default function MenuPage() {
                     <div className="menu-category-images-salad">
                         <h1 className="menu-category-titles">SALADS</h1>
                     </div>
-                    <div className="menu-body-container" >
+                    <div className="menu-body-container" id="salad-section">
                         <div className="menu-body">
                             <h4 className="menu-body-titles">CAESAR SALAD</h4>
                             <p className="menu-body-descriptions">
@@ -130,7 +133,7 @@ export default function MenuPage() {
                     <div className="menu-category-images-burger">
                         <h1 className="menu-category-titles">BURGERS</h1>
                     </div>
-                    <div className="menu-body-container">
+                    <div className="menu-body-container" id="burger-section">
                         <div className="menu-body">
                             <h4 className="menu-body-titles">CLASSIC CHEESEBURGER</h4>
                             <p className="menu-body-descriptions">
@@ -219,7 +222,7 @@ export default function MenuPage() {
                     <div className="menu-category-images-kid">
                         <h1 className="menu-category-titles">KIDS</h1>
                     </div>
-                    <div className="menu-body-container">
+                    <div className="menu-body-container" id="kid-section">
                         <div className="menu-body">
                             <h4 className="menu-body-titles">LIL BURGER</h4>
                             <p className="menu-body-descriptions">
@@ -252,7 +255,7 @@ export default function MenuPage() {
                     <div className="menu-category-images-dessert">
                         <h1 className="menu-category-titles">DESSERTS</h1>
                     </div>
-                    <div className="menu-body-container">
+                    <div className="menu-body-container" id="dessert-section">
                         <div className="menu-body">
                             <h4 className="menu-body-titles">ITALIAN DOUGHNUTS</h4>
                             <p className="menu-body-descriptions">
@@ -300,7 +303,7 @@ export default function MenuPage() {
                     <div className="menu-category-images-drink">
                         <h1 className="menu-category-titles">DRINKS</h1>
                     </div>
-                    <div className="menu-body-container">
+                    <div className="menu-body-container" id="drink-section">
                         <div className="menu-body">
                             <h4 className="menu-body-titles">LEMONADE</h4>
                             <p className="menu-body-descriptions">

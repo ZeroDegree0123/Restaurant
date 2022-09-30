@@ -1,7 +1,10 @@
 import './RewardsPage.css'
 
 
-export default function RewardsPage() {
+export default function RewardsPage({scrollToTop}) {
+
+    scrollToTop();
+
     const handleClick = () => {
         alert(`You are already a member`)
     }

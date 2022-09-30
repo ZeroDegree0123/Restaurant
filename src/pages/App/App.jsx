@@ -15,6 +15,11 @@ import Careers from "../CareersPage/CareersPage";
 
 export default function App() {
   const [user, setUser] = useState(getUser());
+
+  function scrollToTop() {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <main className="App">
       {user ? (
@@ -22,13 +27,13 @@ export default function App() {
           <NavBar user={user} setUser={setUser} />
           <Routes>
             {/* route components in here */}
-            <Route path="/orders/new" element={<NewOrder />} />
-            <Route path="/orders" element={<OrderHistory />} />
-            <Route path="/menu" element={<Menu />} />
-            <Route path="/" element={<Home />} />
-            <Route path="/rewards" element={<Rewards />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/careers" element={<Careers />} />
+            <Route path="/orders/new" element={<NewOrder scrollToTop={scrollToTop}/>} />
+            {/* <Route path="/orders" element={<OrderHistory />} /> */}
+            <Route path="/menu" element={<Menu scrollToTop={scrollToTop}/>} />
+            <Route path="/" element={<Home scrollToTop={scrollToTop}/>} />
+            <Route path="/rewards" element={<Rewards scrollToTop={scrollToTop}/>} />
+            <Route path="/about" element={<About scrollToTop={scrollToTop}/>} />
+            <Route path="/careers" element={<Careers scrollToTop={scrollToTop}/>} />
           </Routes>
           <Footer/>
         </>

@@ -3,8 +3,10 @@ import "../../Components/CategoryList/CategoryList"
 import Categories from '../../Components/CategoryList/CategoryList'
 import { useState } from "react";
 
-export default function NewOrderPage() {
+export default function NewOrderPage({scrollToTop}) {
     const [category, setCategory] = useState(Categories);
+
+    scrollToTop();
 
     function filterFood(item) {
         const result = Categories.filter((value) => {
@@ -16,6 +18,7 @@ export default function NewOrderPage() {
     function handleClick({category}) {
         alert('Added To Order')
     }
+    
   return (
         <>
             <main className="menu-container">

@@ -1,10 +1,13 @@
 import './HomePage.css'
 import { Link } from "react-router-dom";
 
-export default function HomePage() {
+export default function HomePage({scrollToTop}) {
+
+    scrollToTop();
+
     const handleClick = () => {
         alert(`You are already signed up`)
-    }
+    };
 
     return (
         <>
@@ -18,29 +21,29 @@ export default function HomePage() {
                 <section className="rewards-container">
                     <div className="rewards-img"></div>
                     <div className="rewards-body">
-                        <h1 className="rewards-text">ZACH'S REWARDS</h1>
+                        <h1 id="rewards-h1" className="rewards-text">ZACH'S REWARDS</h1>
                         <h4 id="rewards-middle-text" className="rewards-text">JOIN TO START EARNING</h4>
                         <a className="rewards-link" href="/rewards" onClick={handleClick}>START EARNING NOW</a>
                     </div>
                 </section>
                 <h1 className="menu-highlights">MENU HIGHLIGHTS</h1>
                 <section className="highlights-container">
-                    <Link id="highlight-items" className="daily" to="/menu">
+                    <Link className="highlight-items" id="daily" to="/menu">
                             <h2 className="highlight-item-titles">DAILY SPECIALS</h2>
                     </Link>
-                    <Link id="highlight-items" className="appetizers" to="/menu"> 
+                    <Link className="highlight-items" id="appetizers" to="/menu"> 
                             <h2 className="highlight-item-titles">APPETIZERS</h2>
                     </Link>
-                    <Link id="highlight-items" className="burgers" to="/menu"> 
+                    <Link className="highlight-items" id="burgers" to="/menu"> 
                             <h2 className="highlight-item-titles">BURGERS</h2>
                     </Link>
-                    <Link id="highlight-items" className="drinks" to="/menu">  
+                    <Link className="highlight-items" id="drinks" to="/menu">  
                             <h2 className="highlight-item-titles">DRINKS</h2>
                     </Link>
-                    <Link id="highlight-items" className="desserts" to="/menu"> 
+                    <Link className="highlight-items" id="desserts" to="/menu"> 
                             <h2 className="highlight-item-titles">DESSERTS</h2>
                     </Link>
-                    <Link id="highlight-items" className="kids" to="/menu">
+                    <Link className="highlight-items" id="kids" to="/menu">
                             <h2 className="highlight-item-titles">KIDS</h2>
                     </Link>
                 </section>
