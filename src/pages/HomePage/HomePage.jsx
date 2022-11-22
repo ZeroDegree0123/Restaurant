@@ -1,13 +1,15 @@
 import './HomePage.css'
 import { Link } from "react-router-dom";
 
-export default function HomePage({scrollToTop}) {
+export default function HomePage({scrollToTop, user}) {
+
 
     scrollToTop();
 
     const handleClick = () => {
         alert(`You are already signed up`)
     };
+
 
     return (
         <>
@@ -23,7 +25,11 @@ export default function HomePage({scrollToTop}) {
                     <div className="rewards-body">
                         <h1 id="rewards-h1" className="rewards-text">ZACH'S REWARDS</h1>
                         <h4 id="rewards-middle-text" className="rewards-text">JOIN TO START EARNING</h4>
-                        <a className="rewards-link" href="/rewards" onClick={handleClick}>START EARNING NOW</a>
+                        {user ?
+                            <a className="rewards-link" href="/rewards" onClick={handleClick}>START EARNING NOW</a>
+                            :
+                            <a className="rewards-link" href="/login">START EARNING NOW</a>
+                        }
                     </div>
                 </section>
                 <h1 className="menu-highlights">MENU HIGHLIGHTS</h1>
@@ -61,7 +67,11 @@ export default function HomePage({scrollToTop}) {
                     <div className="bottom-links">
                         <img className="bottom-link-images" src="https://imgur.com/nNl75uu.png" alt="" />
                         <p className="botttom-link-body">SIGN UP FOR NEWS AND DEALS</p>
-                        <a className="bottom-link-links" href="/" onClick={handleClick}>Sign-Up</a>
+                        {user ? 
+                            <a className="bottom-link-links" href="/" onClick={handleClick}>Sign-Up</a>
+                            :
+                            <a className="bottom-link-links" href="/login">Sign-Up</a>
+                        }
                     </div>
                 </section>
 

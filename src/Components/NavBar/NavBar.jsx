@@ -1,11 +1,15 @@
 import './NavBar.css'
-import { Link } from "react-router-dom";
+import { Link, useNavigate} from "react-router-dom";
 import * as userService from "../../utilities/users-service";
 
 export default function NavBar({ user, setUser }) {
+const navigate = useNavigate();
+
   function handleLogOut() {
+    let path = `/`;
     userService.logOut();
     setUser(null);
+    navigate(path);
   }
   return (
     <>
@@ -21,11 +25,15 @@ export default function NavBar({ user, setUser }) {
         <Link className="nav-links" to="orders/new">Order</Link>
         &nbsp;  &nbsp;
         {user && (
-          <Link id="logout" className="nav-links" onClick={handleLogOut} to="logout">
+          <Link id="logout" className="nav-links" onClick={handleLogOut} to="/">
             Logout
           </Link>
         )}
-        <h2 className="user-name">WELCOME {user.name.toUpperCase()}!</h2>
+        { user ?
+          <h2 className="user-name">WELCOME {user.name.toUpperCase()}!</h2>
+          :
+          <Link className="nav-links" to="/login">Login</Link>
+        }
         &nbsp;  &nbsp;
       </nav>
       <hr className="line-break" />

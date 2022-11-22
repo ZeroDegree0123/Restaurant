@@ -1,6 +1,6 @@
 import './AboutPage.css'
 
-export default function AboutPage() {
+export default function AboutPage({user}) {
     const handleClick = () => {
         alert(`you are already a member`)
     }
@@ -28,7 +28,11 @@ export default function AboutPage() {
                             Sign up to Learn about the latest updates on menu items, fun events, 
                             special offers, and much more.
                         </p>
-                        <a className="about-body-link" href="/about" onClick={handleClick}>JOIN TODAY</a>
+                        {user ?
+                            <a className="about-body-link" href="/about" onClick={handleClick}>JOIN TODAY</a>
+                            :
+                            <a className="about-body-link" href="/login">JOIN TODAY</a>
+                        }
                     </div>
                 </div>
                 <div className="about-career-container">

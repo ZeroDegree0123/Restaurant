@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import { getUser } from "../../utilities/users-service";
 import Auth from "../AuthPage/AuthPage";
 import NewOrder from "../NewOrderPage/NewOrderPage";
@@ -15,31 +15,32 @@ import Careers from "../CareersPage/CareersPage";
 
 export default function App() {
   const [user, setUser] = useState(getUser());
+  const navigate = useNavigate();
 
   function scrollToTop() {
     window.scrollTo(0, 0);
   }
 
+  const handleLogin = () => {
+    let path = `/login`;
+    navigate(path)
+  }
+
   return (
     <main className="App">
-      {user ? (
-        <>
           <NavBar user={user} setUser={setUser} />
           <Routes>
             {/* route components in here */}
             <Route path="/orders/new" element={<NewOrder scrollToTop={scrollToTop}/>} />
             {/* <Route path="/orders" element={<OrderHistory />} /> */}
             <Route path="/menu" element={<Menu scrollToTop={scrollToTop}/>} />
-            <Route path="/" element={<Home scrollToTop={scrollToTop}/>} />
-            <Route path="/rewards" element={<Rewards scrollToTop={scrollToTop}/>} />
-            <Route path="/about" element={<About scrollToTop={scrollToTop}/>} />
+            <Route path="/" element={<Home user={user} handleLogin={handleLogin} scrollToTop={scrollToTop}/>} />
+            <Route path="/rewards" element={<Rewards handleLogin={handleLogin} scrollToTop={scrollToTop}/>} />
+            <Route path="/about" element={<About user={user} scrollToTop={scrollToTop}/>} />
             <Route path="/careers" element={<Careers scrollToTop={scrollToTop}/>} />
+            <Route path="/login" element={<Auth setUser={setUser} scrollToTop={scrollToTop}/>} />
           </Routes>
           <Footer/>
-        </>
-      ) : (
-        <Auth path="/login" setUser={setUser} />
-      )}
     </main>
   );
 }

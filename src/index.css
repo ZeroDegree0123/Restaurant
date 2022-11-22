@@ -169,4 +169,5 @@ button[type="submit"] {
 .auth-container {
   text-align: center;
   margin: 80px;
+  min-height: 100vh;
 }
