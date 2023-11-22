@@ -12,10 +12,10 @@
 -------------------------------- */
 
 main {
-    margin-top: 90px;
+    /* margin-top: 90px; */
 }
 
-.spacer { 
+.spacer {
     height: 100px;
     width: 100%;
 }
@@ -90,19 +90,27 @@ main {
 }
 
 @keyframes slide {
-    100% { left: 0; }
+    100% {
+        left: 0;
+    }
 }
 
 @-webkit-keyframes slide {
-    100% { left: 0; }
+    100% {
+        left: 0;
+    }
 }
 
 @keyframes slide1 {
-    100% { right: 0; }
+    100% {
+        right: 0;
+    }
 }
 
 @-webkit-keyframes slide1 {
-    100% { right: 0; }
+    100% {
+        right: 0;
+    }
 }
 
 /* --------------------------------
@@ -122,7 +130,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 50px; 
+    margin: 50px;
     margin-bottom: 100px;
     border-radius: 10px;
     box-shadow: 1px 3px 9px rgb(0 0 0 / 20%);
@@ -137,7 +145,7 @@ main {
 }
 
 .benefits-card {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -314,7 +322,7 @@ main {
         padding: 40px;
         padding-left: 40px;
     }
-  
+
     #burger-animation {
         width: 500px;
         height: 500px;
@@ -418,7 +426,7 @@ main {
         justify-content: center;
         align-items: center;
     }
-    
+
     .earning-main-container {
         display: flex;
         flex-direction: column;
@@ -426,21 +434,21 @@ main {
         align-items: center;
         margin-bottom: 60px;
     }
-    
+
     .earning-image-container {
         width: 0;
         height: 0;
     }
-    
+
     .earning-image {
         width: 0;
         height: 0;
     }
-    
+
     .earning-image-body {
         visibility: hidden;
     }
-    
+
     .earning-header {
         display: block;
         text-align: center;
@@ -450,7 +458,7 @@ main {
         margin: 0;
         margin-bottom: 20px;
     }
-    
+
     .earning-title {
         width: 70%;
         font-size: 18px;
@@ -458,7 +466,7 @@ main {
         color: var(--fith);
         margin: 10px;
     }
-    
+
     .earning-body {
         width: 80%;
         text-align: left;
