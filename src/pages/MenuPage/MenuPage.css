@@ -16,8 +16,10 @@
 .menu-title {
     display: flex;
     justify-content: flex-start;
-    font-size: 60px;
+    font-size: 55px;
     color: var(--fith);
+    padding: 50px 0 0 0;
+    margin: 0;
 }
 
 .menu-body-container {
@@ -25,191 +27,124 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 10px;
-    margin-top: 10px;
     flex-wrap: wrap;
+    padding-top: 20px;
     height: 100%;
-}
-
-.menu-category-titles {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    padding: 20px;
-    font-size: 45px;
-    height: 225px;
-    color: var(--seventh);
-    text-shadow: 1px 3px var(--sixth);
 }
 
 .menu-body {
     text-align: left;
-    width: 280px;
-    margin: 0;
+    width: 50%;
 }
 
 .menu-body-titles {
-    font-size: 17px;   
-    margin: 6px;
+    font-size: 20px;
     color: var(--fith);
+    margin: 5px;
 }
 
 .menu-body-descriptions {
     font-size: 14px;
-    margin: 6px;
+    margin: 5px;
 }
 
 .sides-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
     border: 2px solid var(--fith);
     padding: 10px;
     margin-top: 20px;
 }
 
 .sides-title {
-    display: block;
     text-align: left;
-    width: 100%;
+    font-size: 25px;
+    color: var(--seventh);
     padding: 5px;
     padding-left: 1px;
     margin: 0;
-    font-size: 25px;
-    color: var(--seventh);
+    width: 100%;
     text-shadow: 1px 2px var(--sixth);
 }
 
 .individual-sides {
-    padding: 5px;
-    margin: 0;
     font-size: 14;
     color: var(--fith);
+    padding: 5px;
+    margin: 0;
 }
 
-.menu-appetizers-container {
-    padding: 2px; 
-}
-
-.menu-salads-container {
-    padding: 2px;
-}
-
-.menu-burgers-container {
-    padding: 2px;
-}
-
-.menu-kids-container {
-    padding: 2px;
-}
-
-.menu-desserts-container {
-    padding: 2px;
-}
-
-.menu-drinks-container {
-    padding: 2px;  
+.menu-category-titles {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 45px;
+    color: var(--seventh);
+    padding: 20px;
+    height: 100%;
+    text-shadow: 1px 3px var(--sixth);
 }
 
 .menu-category-images-appetizer {
     width: 100%;
     height: 225px;
     background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
-                url('https://imgur.com/gooGYZx.png') no-repeat center center / cover;
+        url('https://imgur.com/gooGYZx.png') no-repeat center center / cover;
 }
 
 .menu-category-images-salad {
     width: 100%;
     height: 225px;
-    background:linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
-                url('https://imgur.com/jd6wMjg.png') no-repeat center center / cover;
+    background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
+        url('https://imgur.com/jd6wMjg.png') no-repeat center center / cover;
 }
 
 .menu-category-images-burger {
     width: 100%;
     height: 225px;
     background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
-                url('https://imgur.com/f3VHTLd.png') no-repeat center center / cover;
+        url('https://imgur.com/f3VHTLd.png') no-repeat center center / cover;
 }
 
 .menu-category-images-kid {
     width: 100%;
     height: 225px;
     background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
-                url('https://imgur.com/Ua5jf9K.png') no-repeat center center / cover;
+        url('https://imgur.com/Ua5jf9K.png') no-repeat center center / cover;
 }
 
 .menu-category-images-dessert {
     width: 100%;
     height: 225px;
     background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
-                url('https://imgur.com/pfv2ruS.png') no-repeat center center / cover;
+        url('https://imgur.com/pfv2ruS.png') no-repeat center center / cover;
 }
 
 .menu-category-images-drink {
     width: 100%;
     height: 225px;
     background: linear-gradient(180deg, hsla(30, 100%, 50%, 0.15), hsla(0, 0%, 0%, 0.55)),
-                url('https://imgur.com/n6oM01k.png') no-repeat center center / cover;
-}
-
-@media only screen and (min-width: 1600px) {
-    .menu-container {
-        margin: 50px;
-        margin-top: 50px;
-    }
-
-    .menu-title {
-        font-size: 65px;
-    }
-
-    .menu-body {
-        width: 360px;
-    }
-
-    .menu-category-titles {
-        font-size: 45px;
-    }
-
-    .menu-body-titles {
-        font-size: 20px;
-    }
-
-    .menu-body-descriptions{
-        font-size: 15px;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .menu-body-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    
-    .menu-body {
-        width: 180px;
-    }
+        url('https://imgur.com/n6oM01k.png') no-repeat center center / cover;
 }
 
 @media only screen and (max-width: 600px) {
+    .menu-container {
+        margin: 50px 0;
+    }
+
     .menu-title {
-        font-size: 50px;
-        margin: 10px;
+        font-size: 45px;
         justify-content: center;
     }
 
-    .menu-category-titles {
-        justify-content: center;
-        text-shadow: 2px 5px var(--sixth);
+    .menu-body-titles {
+        text-align: center;
     }
 
-    .menu-body {
-        width: 360px;
-        padding: 10px;
-        justify-content: center;
+    .menu-body-descriptions {
+        text-align: center;
     }
-
 }
