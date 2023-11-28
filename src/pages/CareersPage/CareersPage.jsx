@@ -3,8 +3,6 @@ import './CareersPage.css'
 export default function CareersPage() {
     return (
         <main>
-
-
             <section className="company-header-container">
                 <h1 className="recruit-title">THE HEART OF ZACH'S BURGERS</h1>
                 <p className="recruit-body">
@@ -16,8 +14,6 @@ export default function CareersPage() {
                     Hiring now for management and crew positions in all locations.
                 </p>
             </section>
-
-
             <h1 className="positions-container-title">AVAILABLE POSITIONS</h1>
             <section className="company-positions-container">
                 <div className="positions-card">
@@ -82,8 +78,6 @@ export default function CareersPage() {
                     <img className="positions-image" src="https://imgur.com/SiIR3Ah.png" alt="" />
                 </div>
             </section>
-
-
             <h1 className="company-benefits-container-title">WORK WITH PASSION</h1>
             <section className="company-benefits-container">
                 <div className="work-card">
@@ -143,9 +137,6 @@ export default function CareersPage() {
                     </p>
                 </div>
             </section>
-
-
-
         </main>
     )
 }

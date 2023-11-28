@@ -71,13 +71,13 @@
 }
 
 .h-rewards-body>div>h1 {
-    font-size: 55px;
+    font-size: 65px;
     margin: 0;
 }
 
 .h-rewards-body>div>p {
-    font-size: 25px;
-    margin: 35px;
+    font-size: 35px;
+    margin: 35px 0;
     margin-bottom: 50px;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .h-rewards-link {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     padding: 5px;

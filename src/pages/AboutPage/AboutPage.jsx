@@ -17,11 +17,7 @@ export default function AboutPage({ user }) {
                     everyone to enjoy.
                 </p>
             </section>
-
-
-
             <section className="about-body-container">
-
                 <div className="about-body-subcontainer">
                     <img className="about-body-image" src="https://imgur.com/nSKV5Bw.png" alt="" />
                     <div id="about-member-card" className="about-body">
@@ -37,8 +33,6 @@ export default function AboutPage({ user }) {
                         }
                     </div>
                 </div>
-
-
                 <div id='about-careers-subcontainer' className="about-body-subcontainer">
                     <div className="about-body">
                         <h3 className="about-body-title">CAREERS</h3>
@@ -52,17 +46,8 @@ export default function AboutPage({ user }) {
                     </div>
                     <img className="about-body-image" src="https://imgur.com/j92LZvD.png" alt="" />
                 </div>
-
             </section>
-
-
-
-
             <section className="about-community-container">
-                {/* <div className="community-goals">
-                    <h1>COMMUNITY EFFORTS</h1>
-                    <p>lkfjajkdgakjlba</p>
-                </div> */}
                 <div className="contact-info-container">
                     <h2 className="contact-info-title">Contact info</h2>
                     <hr className="contact-line-break" />
