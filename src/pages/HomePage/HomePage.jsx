@@ -14,10 +14,8 @@ export default function HomePage({ scrollToTop, user }) {
     return (
         <main className="home-page">
             <section className="header-container">
-                <div className="order-container">
-                    <h1 className="order-title">TIME TO FEAST!</h1>
-                    <a className="order-link" href="orders/new">ORDER NOW</a>
-                </div>
+                <h1 className="order-title">TIME TO FEAST!</h1>
+                <a className="order-link" href="orders/new">ORDER NOW</a>
             </section>
             <section className="home-rewards-container">
                 <div className="h-rewards-body">

@@ -11,9 +11,6 @@ export default function RewardsPage({ scrollToTop, user }) {
 
     return (
         <main className="rewards-page-container">
-
-
-
             <section className="reward-header-container">
                 <img id="burger-animation" className="header-burger-image" src="https://imgur.com/pgIGRqP.png" alt="" />
                 <div className="header-center-container">
@@ -31,9 +28,6 @@ export default function RewardsPage({ scrollToTop, user }) {
                 </div>
                 <img id="salad-animation" className="header-salad-image" src="https://imgur.com/T95AqEz.png" alt="" />
             </section>
-
-
-
             <section className="benefits-background">
                 <div className="reward-benefits-container">
                     <h1 className="benefits-header">BENEFITS FOR MEMBERS</h1>
@@ -93,11 +87,7 @@ export default function RewardsPage({ scrollToTop, user }) {
                     <div className="spacer"></div>
                 </div>
             </section>
-
-
-
             <section className="reward-earning-container">
-
                 <div className="earning-main-container">
                     <h1 className="earning-header">HOW TO EARN AND USE YOUR REWARDS</h1>
                     <h2 className="earning-title">-HOW TO EARN</h2>
@@ -116,12 +106,10 @@ export default function RewardsPage({ scrollToTop, user }) {
                     <h2 className="earning-title">-NOT A MEMBER</h2>
                     <p className="earning-body">Join Today!</p>
                 </div>
-
                 <div className="earning-image-contianer">
                     <h2 className="earning-image-body">START EARNING TODAY</h2>
                     <img className="earning-image" src="https://imgur.com/RHSpmXD.png" alt="" />
                 </div>
-
             </section>
         </main>
     )

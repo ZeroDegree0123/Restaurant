@@ -6,27 +6,18 @@
 --sixth: hsl(32, 100%, 14%);
 --seventh: hsla(30, 100%, 50%, 0.85);
 --eighth: hsla(193, 6%, 48%, 0.35); */
-
-.home-page {
-    margin-top: 150px;
-}
-
 /* --------------------------------
 # Home Header
 -------------------------------- */
 .header-container {
-    width: 100%;
-}
-
-.order-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    margin: auto;
+    margin: 50px auto;
     width: 90%;
-    min-height: 60vh;
+    height: 75vh;
     background: url('https://imgur.com/uTVYGWX.png') no-repeat center center / cover;
     text-shadow: 1px 3px var(--third);
 }
@@ -60,7 +51,6 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    margin: 100px 0;
     min-height: 85vh;
     width: 100%;
     background-image: url('https://imgur.com/hO9fhqf.png');
@@ -239,6 +229,15 @@
 -------------------------------- */
 @media only screen and (max-width: 600px) {
 
+    /* Header */
+    .order-title {
+        font-size: 35px;
+    }
+
+    .order-link {
+        font-size: 24px;
+    }
+
     /* Rewards */
     .home-rewards-container {
         grid-template-columns: 1fr;
@@ -246,8 +245,14 @@
 
     }
 
+    .h-rewards-body>div>h1 {
+        font-size: 45px;
+    }
+
     .h-rewards-body>div>p {
-        margin: 25px;
+        font-size: 25px;
+        margin: 25px 0;
+        margin-bottom: 30px;
     }
 
     /* Highlights */

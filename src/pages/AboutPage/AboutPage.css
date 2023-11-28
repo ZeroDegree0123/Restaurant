@@ -11,72 +11,57 @@
 /* --------------------------------
 # About Header
 -------------------------------- */
-
 .about-header-container {
-    margin: 60px;
-}
-
-.about-header {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 600px;
+    height: 75vh;
     background: linear-gradient(180deg, var(--primary), var(--secondary)),
-                url('https://imgur.com/l7WfRAV.png') no-repeat center center / cover;
+        url('https://imgur.com/l7WfRAV.png') no-repeat center center / cover;
 }
 
 .about-header-title {
     margin: 10px;
-    width: 80%;
-    font-size: 60px;
+    width: 90%;
+    font-size: 55px;
     color: white;
 }
 
 .about-header-body {
-    margin: 20px;
-    margin-top: 5px;
-    padding-bottom: 20px;
-    width: 80%;
     font-size: 20px;
     color: white;
+    margin: 0;
+    padding: 40px;
+    padding-top: 5px;
+    width: 75%;
 }
 
 /* --------------------------------
 # About body
 -------------------------------- */
-
 .about-body-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 60px;
+    margin: 50px;
+    margin-top: 100px;
     border-radius: 10px;
-    box-shadow:1px 3px 9px rgb(0 0 0 / 20%);
+    box-shadow: 1px 3px 9px rgb(0 0 0 / 20%);
 }
 
-.about-signup-container {
+.about-body-subcontainer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin: 10px;
-    width: 70%;
-}
-
-.about-career-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 10px;
-    width: 70%;
+    padding: 40px 20px;
+    width: 100%;
 }
 
 .about-body-image {
-    width: 450px;
-    height: 350px;
+    width: 40%;
 }
 
 .about-body {
@@ -84,30 +69,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 10px;
-    height: 350px;
-    background: linear-gradient(90deg, white, var(--third));
+    padding: 20px 10px;
 }
 
 .about-body-title {
     font-size: 30px;
-    margin: 5px;
     color: var(--sixth);
+    margin: 5px;
 }
 
 .about-body-body {
-    text-align: left;
-    padding-left: 10px; 
     color: var(--sixth);
+    text-align: left;
+    padding-left: 10px;
     border-left: 4px solid var(--third);
 }
 
 .about-body-link {
-    text-decoration: none;
     color: var(--fith);
+    text-decoration: none;
     margin-top: 10px;
     padding: 10px;
     border-radius: 5px;
@@ -118,64 +98,53 @@
     background-color: var(--third);
 }
 
+/* --------------------------------
+# About Contact Info
+-------------------------------- */
 .about-community-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 60px;
+    margin: 100px 0;
 }
-
-#about-member-card {
-    background: linear-gradient(270deg, white, var(--third));
-}
-
-/* --------------------------------
-# About Contact Info
--------------------------------- */
 
 .contact-info-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin: 0;
-    width: 800px;
-    height: 500px;
+    width: 60%;
     border: 2px dotted var(--third);
 }
 
 .contact-info-title {
-    font-size: 60px;
-    margin: 0;
+    font-size: 55px;
     color: var(--sixth);
-    margin-bottom: 10px;
+    margin: 0;
 }
 
 .contact-line-break {
-    margin-bottom: 40px;
     width: 60%;
 }
 
 .contact-info-body {
-    font-size: 20px;
-    width: 500px;
+    font-size: 16px;
     color: var(--fith);
+    width: 90%;
 }
 
 .contact-info-link-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin: 20px;
+    padding: 20px;
     width: 80%;
 }
 
 .contact-info-link {
-    text-decoration: none;
-    margin: 0;
-    padding: 10px;
     color: var(--fith);
+    text-decoration: none;
+    padding: 10px;
     border-radius: 10px;
     border: 2px solid var(--fith);
 }
@@ -188,78 +157,77 @@
 # About Media
 -------------------------------- */
 
-@media only screen and (min-width: 1600px) {
-    .about-body-image {
-        width: 500px;
-        height: 400px;
+@media only screen and (min-width: 1600px) {}
+
+@media only screen and (max-width: 600px) {
+
+    /* Header */
+    .about-header-container {
+        justify-content: center;
     }
 
-    .about-body {
-        height: 400px;
-    }
-}
-
-@media only screen and (max-width: 1300px) {
-    .about-signup-container {
-        width: 90%;
-    }
-    
-    .about-career-container {
-        width: 90%;
-    }
-
-    .about-body-image {
-        width: 350px;
-        height: 300px;
-    }
-
-    .about-body {
-        height: 300px;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .about-body-body {
-        font-size: 14px;
-    }
-
-    .about-body-link {
-        margin-top: 0;
-    }
-}
-
-@media only screen and (max-width: 840px) {
     .about-header-title {
-        font-size: 32px;
-        text-shadow: 1px 3px black;
+        font-size: 30px;
+        color: white;
+        margin: 0;
+        width: 90%;
     }
 
-    .about-signup-container {
-        flex-direction: column;
-        width: 98%;
-    }
-    
-    .about-career-container {
-        flex-direction: column-reverse;
+    .about-header-body {
+        font-size: 14px;
+        padding: 20px 0;
         width: 90%;
+    }
+
+    /* Body */
+    .about-body-container {
+        margin: 20px;
+        margin-top: 40px;
+    }
+
+    .about-body-subcontainer {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
     }
 
     .about-body-image {
-        width: 90%;
-        height: 250px;
+        width: 100%;
     }
 
     .about-body {
-        height: 300px;
+        padding: 20px 0;
+    }
+
+    .about-body-title {
+        text-align: left;
+        margin: 0;
+    }
+
+    #about-careers-subcontainer {
+        flex-direction: column-reverse;
+    }
+
+    /* Contact */
+    .about-community-container {
+        height: 100%;
     }
 
     .contact-info-container {
         margin: 20px;
-        width: 500px;
-        height: 500px;
+        width: 100%;
     }
-    .contact-info-body {
-        padding: 10px;;
-        width: 450px;
-     }
+
+    .contact-info-title {
+        font-size: 35px;
+    }
+
+    .contact-info-link {
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .contact-info-link:hover {
+        background-color: var(--third);
+    }
 }
