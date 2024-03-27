@@ -22,8 +22,7 @@ This app is Front-end based and themed as a restaurant. Users can sign-up and br
 
 ## Next Steps
 
-For future developments on Zach's Burgers I would like to implement a order feature allowing users to search an area for nearby restaurants and being able to place an order. I would also like to create a profile page allowing users to manage there account information as well as view there rewards progress. Speaking of rewards I would like to create a place to view rewards progress within the profile page. Possibly add full order functionality. This is a test
-
+For future developments on Zach's Burgers I would like to implement a order feature allowing users to search an area for nearby restaurants and being able to place an order. I would also like to create a profile page allowing users to manage there account information as well as view there rewards progress. Speaking of rewards I would like to create a place to view rewards progress within the profile page. Possibly add full order functionality. 
 
 
 
