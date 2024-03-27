@@ -1,6 +1,6 @@
 # Zachs Burgers
 
-This app is Front-end based and themed as a restaurant. Users can sign-up and browse through the websites different pages. The purpose of this app is to mimic what a restaurants site would like, and to showcase my Front-end skills. The app does not have a lot of funtionality other than being able to sign-up as a user.  
+Zach's Burgers is a family owned Restaurant that has been around longer than you've been Alive! This app is a fully dynamic restaurant website with basic ordering functionality. I had a lot a fun with this project focusing on styling the website to compete with other popular franchises.  
 
 ## ScreenShots 
 ![Home Page](https://imgur.com/r00juxL.png)
