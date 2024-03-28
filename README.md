@@ -1,6 +1,6 @@
 # Zachs Burgers
 
-Zach's Burgers is a family owned Restaurant that has been around longer than you've been Alive! This app is a fully dynamic restaurant website with basic ordering functionality. I had a lot a fun with this project focusing on styling the website to compete with other popular franchises.  
+Zach's Burgers is a family owned Restaurant that has been around longer than you've been Alive! This app is a fully dynamic restaurant website with basic ordering functionality. I had a lot a fun with this project focusing on styling the website to compete with other popular franchises amongst the web. The site includes an assortment of pages including a menu, a career path site, and more!
 
 ## ScreenShots 
 ![Home Page](https://imgur.com/r00juxL.png)
